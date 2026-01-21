@@ -1,11 +1,20 @@
 project:
   type: default
+  output-dir: _output/
 
 resources:
   - src/fysisk_biokemi/datasets/files/**
 
 format:
-  ipynb: default  
+  ipynb: 
+    number-sections: true
+    number-depth: 2
+  typst: 
+    number-sections: true
+    number-depth: 2
+    toc: true
+    toc-depth: 2
+    margin: {left: 2cm, right: 2cm, top: 2.5cm, bottom: 2.5cm}
 
 execute:
   echo: true
