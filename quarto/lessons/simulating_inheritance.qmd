@@ -26,6 +26,7 @@ The cell below makes this simulation by drawing `n_samples` random numbers and p
 counts the number of children that did not and did inherit the disease. The probability of inheritance is controlled by the `inheritance_probability` input.
 
 ```{python}
+## Run this cell! ## 
 amg_si.simulate_one_child_inheritance_mc(n_samples=100, inheritance_probability=0.5)
 ```
 
@@ -56,6 +57,7 @@ Consider the following questions
 
 ```{python}
 #| fig-align: center
+## Run this cell! ## 
 amg_si.one_child_convergence(inheritance_probability=0.5)
 ```
 
@@ -77,6 +79,7 @@ inheriting the disease.
 
 ```{python}
 #| fig-align: center
+## Run this cell! ## 
 amg_si.simulate_two_children_inheritance_mc(n_samples=400, inheritance_probability=0.5)
 ```
 
@@ -86,31 +89,27 @@ With `inheritance_probability=0.5` the left-hand plot is split into 4 quadrants 
 
 Why is the number cases where one child inherits the disease larger than the the number of cases where none inherit the disease? 
 
+What is the area of the quadrant where both children inherit the disease?
+
 #### Exercise 6: 
 
 If you set `inheritance_probability=0.25`, what happens to the 4 quadrants? What happens to the histogram? 
 
 #### Exercise 7: 
 
-With `inheritance_probability=0.5` and `n_samples=400` what is the expected number of cases where both children 
-have inherited the disease? 
+With `inheritance_probability=0.5` and `n_samples=400` what is the expected number of cases where both children have inherited the disease? 
 
 ## More children
 
-The way of simulating we have been doing can be extended to any number of children, however visualizing it becomes 
-more challenging with three children we would draw three numbers ($c_1$, $c_2$, $c_3$) in a 3D cube, which we could plot - 
-but with four children we would draw four numbers ($c_1$, $c_2$, $c_3$, $c_4$) in a 4D "hypercube" which our senses are not 
-particularly equipped to visualize. 
+The way of simulating we have been doing can be extended to any number of children, however visualizing it becomes more challenging with three children we would draw three numbers ($c_1$, $c_2$, $c_3$) in a 3D cube, which we could plot - but with four children we would draw four numbers ($c_1$, $c_2$, $c_3$, $c_4$) in a 4D "hypercube" which our senses are not particularly equipped to visualize. 
 
 #### Exercise 8:
 
-With four children how many possible outcomes are there? It may help to think of it as how many unique sequences of length four with `0` and `1` are possible.
-(E.g. `0000`, `0001`).
+With four children how many possible outcomes are there? It may help to think of it as how many unique sequences of length four with `0` and `1` are possible (E.g. `0000`, `0001`).
 
 ### Binomial distribution
 
-Another possibility is to draw directly from a binomial distribution, That means that if a disease has a probability $p$ of being inherited, 
-the probability of $n$ children inheriting the disease is given by 
+Another possibility is to draw directly from a binomial distribution, That means that if a disease has a probability $p$ of being inherited, the probability of $n$ children inheriting the disease is given by 
 
 $$
 P(k) = \binom{N}{k} \, p^{k} \, (1 - p)^{N - k},
@@ -149,5 +148,9 @@ plt.show()
 
 #### Exercise 9: 
 
-For `n_children = 4` and `inheritance_probability = 0.5` use the simulation to estimate the probability that no children 
-inherit the disease and that all four children inherit the disease. Are these two probabilities the same, why/why not? 
+For `n_children = 4` and `inheritance_probability = 0.5` use the simulation to estimate the probability that no children inherit the disease and that all four children inherit the disease. Are these two probabilities the same, why/why not? 
+
+#### Exercise 10:
+
+Using the same geometric reasoning as in the one and two children cases, what is the "hypervolume" of 
+the region where all four children inherit the disease? 
