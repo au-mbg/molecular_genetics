@@ -20,8 +20,7 @@ With one child there are two possible outcomes:
 1. The child inherits the disease.
 2. The child doesn't inherit the disease.
 
-We can simulate this by drawing a uniformly random number between 0 and 1 and if the number is less than the probability of inheritance counting 
-that as the child having inherited the disease.
+We can simulate this by drawing a uniformly random number between 0 and 1 and if the number is less than the probability of inheritance counting that as the child having inherited the disease.
 
 The cell below makes this simulation by drawing `n_samples` random numbers and plotting each value on the left hand side and in the right-hand panel 
 counts the number of children that did not and did inherit the disease. The probability of inheritance is controlled by the `inheritance_probability` input.
@@ -30,21 +29,21 @@ counts the number of children that did not and did inherit the disease. The prob
 amg_si.simulate_one_child_inheritance_mc(n_samples=100, inheritance_probability=0.5)
 ```
 
-### Exercise 1: 
+#### Exercise 1: 
 
 With `n_samples = 100` and `inheritance_probability=0.5` what is the expected number of children that have inherited the disease? 
 
 Does the simulation repeatedly yield exactly that number? If not, why not? 
 
-### Exercise 2: 
+#### Exercise 2: 
 
 Set `inheritance_probability` to 0.2, 0.5, and 0.8. For each value, run the simulation with `n_samples = 1000`. How does the histogram change?
 
-### Exercise 3: 
+#### Exercise 3: 
 
 You observe that ~30% of children in the simulation inherit the disease. What inheritance probability does that suggest?
 
-### Exercise 4: 
+#### Exercise 4: 
 
 The cell below makes boxplots the fraction of children that inherit the disease as a function of the number of samples. 
 Consider the following questions 
@@ -81,17 +80,17 @@ inheriting the disease.
 amg_si.simulate_two_children_inheritance_mc(n_samples=400, inheritance_probability=0.5)
 ```
 
-### Exercise 5: 
+#### Exercise 5: 
 
 With `inheritance_probability=0.5` the left-hand plot is split into 4 quadrants of equal area - why is that? 
 
 Why is the number cases where one child inherits the disease larger than the the number of cases where none inherit the disease? 
 
-### Exercise 6: 
+#### Exercise 6: 
 
 If you set `inheritance_probability=0.25`, what happens to the 4 quadrants? What happens to the histogram? 
 
-### Exercise 7: 
+#### Exercise 7: 
 
 With `inheritance_probability=0.5` and `n_samples=400` what is the expected number of cases where both children 
 have inherited the disease? 
@@ -103,7 +102,7 @@ more challenging with three children we would draw three numbers ($c_1$, $c_2$, 
 but with four children we would draw four numbers ($c_1$, $c_2$, $c_3$, $c_4$) in a 4D "hypercube" which our senses are not 
 particularly equipped to visualize. 
 
-### Exercise 8:
+#### Exercise 8:
 
 With four children how many possible outcomes are there? It may help to think of it as how many unique sequences of length four with `0` and `1` are possible.
 (E.g. `0000`, `0001`).
@@ -148,7 +147,7 @@ ax.set_title('Distribution of Children Inheriting Disease')
 plt.show()
 ```
 
-### Exercise 9: 
+#### Exercise 9: 
 
 For `n_children = 4` and `inheritance_probability = 0.5` use the simulation to estimate the probability that no children 
 inherit the disease and that all four children inherit the disease. Are these two probabilities the same, why/why not? 

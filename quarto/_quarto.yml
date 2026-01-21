@@ -9,6 +9,8 @@ format:
   ipynb: 
     number-sections: true
     number-depth: 2
+    execute:
+      enabled: false
   typst: 
     number-sections: true
     number-depth: 2
