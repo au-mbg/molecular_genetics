@@ -1,0 +1,154 @@
+---
+title: Simulating Inheritance
+engine: jupyter
+---
+
+{{< include tidbits/_install_import.qmd >}}
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+import au_molecular_genetics.simulating_inheritance as amg_si
+```
+
+In this notebook we will study inheritance and probe the statistics behind it.
+
+## Monte Carlo Simulation with 1 child.
+
+With one child there are two possible outcomes: 
+
+1. The child inherits the disease.
+2. The child doesn't inherit the disease.
+
+We can simulate this by drawing a uniformly random number between 0 and 1 and if the number is less than the probability of inheritance counting 
+that as the child having inherited the disease.
+
+The cell below makes this simulation by drawing `n_samples` random numbers and plotting each value on the left hand side and in the right-hand panel 
+counts the number of children that did not and did inherit the disease. The probability of inheritance is controlled by the `inheritance_probability` input.
+
+```{python}
+amg_si.simulate_one_child_inheritance_mc(n_samples=100, inheritance_probability=0.5)
+```
+
+### Exercise 1: 
+
+With `n_samples = 100` and `inheritance_probability=0.5` what is the expected number of children that have inherited the disease? 
+
+Does the simulation repeatedly yield exactly that number? If not, why not? 
+
+### Exercise 2: 
+
+Set `inheritance_probability` to 0.2, 0.5, and 0.8. For each value, run the simulation with `n_samples = 1000`. How does the histogram change?
+
+### Exercise 3: 
+
+You observe that ~30% of children in the simulation inherit the disease. What inheritance probability does that suggest?
+
+### Exercise 4: 
+
+The cell below makes boxplots the fraction of children that inherit the disease as a function of the number of samples. 
+Consider the following questions 
+
+- How does the spread of the fraction of inheritance change as the number of samples increases?
+- Why do the results vary much more for small numbers of samples than for large ones?
+- What value do the results appear to approach as the number of samples becomes large?
+- Why do simulations with `n_samples = 10` sometimes give very high or very low fractions, even though the inheritance probability is 0.5?
+- Is it “wrong” when a simulation with 10 samples gives a fraction of 0.8 or 0.2? Why or why not?
+
+```{python}
+#| fig-align: center
+amg_si.one_child_convergence(inheritance_probability=0.5)
+```
+
+## Monte Carlo Simulation with 2 children.
+
+We can extend the simulation with one child to one where each family has two children.
+The idea is the same, but now we now we have two dimensions - one for each child. A sample is 
+simulated by drawing two random numbers $c_1$ and $c_2$, now the possible outcomes are
+
+1. None of the children inherit the disease ($c_1 > p$ and $c_2 > p$).
+2. Child 1 inherits the disease ($c_1 < p$ and $c_2 > p$).
+3. Child 2 inherits the disease ($c_1 > p$ and $c_2 < p$).
+4. Both children inherit the disease ($c_1 < p$ and $c_2 < p$).
+
+
+The cell below makes such a simulation, on the left the randomly drawn segregation values are 
+shown and on the right a histogram of the number of samples with neither, one of, or both children 
+inheriting the disease.
+
+```{python}
+#| fig-align: center
+amg_si.simulate_two_children_inheritance_mc(n_samples=400, inheritance_probability=0.5)
+```
+
+### Exercise 5: 
+
+With `inheritance_probability=0.5` the left-hand plot is split into 4 quadrants of equal area - why is that? 
+
+Why is the number cases where one child inherits the disease larger than the the number of cases where none inherit the disease? 
+
+### Exercise 6: 
+
+If you set `inheritance_probability=0.25`, what happens to the 4 quadrants? What happens to the histogram? 
+
+### Exercise 7: 
+
+With `inheritance_probability=0.5` and `n_samples=400` what is the expected number of cases where both children 
+have inherited the disease? 
+
+## More children
+
+The way of simulating we have been doing can be extended to any number of children, however visualizing it becomes 
+more challenging with three children we would draw three numbers ($c_1$, $c_2$, $c_3$) in a 3D cube, which we could plot - 
+but with four children we would draw four numbers ($c_1$, $c_2$, $c_3$, $c_4$) in a 4D "hypercube" which our senses are not 
+particularly equipped to visualize. 
+
+### Exercise 8:
+
+With four children how many possible outcomes are there? It may help to think of it as how many unique sequences of length four with `0` and `1` are possible.
+(E.g. `0000`, `0001`).
+
+### Binomial distribution
+
+Another possibility is to draw directly from a binomial distribution, That means that if a disease has a probability $p$ of being inherited, 
+the probability of $n$ children inheriting the disease is given by 
+
+$$
+P(k) = \binom{N}{k} \, p^{k} \, (1 - p)^{N - k},
+$$
+
+Where $N$ is the total number of children, $k$ is the number of children who inherit the disease and $p$ is the probability of inheritance.
+
+The cell below uses this, you can change the parameters `n_children` ($N$), `n_samples` and `inheritance_probability` ($p$).
+
+```{python}
+#| fig-align: center
+
+## Parameters ##
+n_children = 2
+n_samples = 100
+inheritance_probability = 0.5
+
+## Draw sample ##
+sample = np.random.binomial(n=n_children, p=inheritance_probability, size=n_samples)
+
+## Plotting the results ##
+fig, ax = plt.subplots(figsize=(6, 5))
+
+colors = amg_si.make_colors(n_children)
+
+for n_child in range(0, n_children+1):
+    ax.bar(n_child, (sample==n_child).sum(), width=0.9, edgecolor='black', color=colors[n_child], alpha=0.7)
+
+
+ax.set_xticks(range(n_children + 1))
+ax.set_xlabel('Number of children with disease $(k)$')
+ax.set_ylabel('Number of samples')
+ax.set_title('Distribution of Children Inheriting Disease')
+plt.show()
+```
+
+### Exercise 9: 
+
+For `n_children = 4` and `inheritance_probability = 0.5` use the simulation to estimate the probability that no children 
+inherit the disease and that all four children inherit the disease. Are these two probabilities the same, why/why not? 

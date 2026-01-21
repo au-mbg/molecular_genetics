@@ -1,0 +1,9 @@
+``` {python}
+#| eval: false
+#| code-fold: true
+try:
+    import au_molecular_genetics
+    print("Already installed")
+except ImportError:
+    %pip install -q "au_molecular_genetics @ git+https://github.com/au-mbg/molecular-genetics.git"
+```
