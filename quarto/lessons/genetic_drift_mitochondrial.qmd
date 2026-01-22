@@ -1,0 +1,108 @@
+---
+title: Genetic drift in mitochondrial segregation
+engine: jupyter
+---
+
+{{< include tidbits/_install_import.qmd >}}
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+```
+
+## Exploring variation from mother to oocytes.
+
+Even though the mother has a fixed mtDNA composition, random sampling during oocyte formation leads to substantial variation between oocytes, the simulation below explores this. 
+
+```{python}
+#| fig-align: center
+def sample_oocyte(p, N, n_samples=1):
+    oocyte_sample = np.random.binomial(n=N, p=p, size=n_samples)
+    p_oocyte = oocyte_sample / N
+    return oocyte_sample, p_oocyte
+
+
+## Parameters
+N = 30 # Effective bottleneck size
+mother_disease_fraction = 0.3
+n_samples = 10000
+
+## Sampling
+sample, p_ooc = sample_oocyte(mother_disease_fraction, N, n_samples)
+
+## Plot 
+fig, ax = plt.subplots()
+bins = np.linspace(-0.5/N, 1 + 0.5/N, N + 2)
+ax.hist(p_ooc, bins=bins, edgecolor='black')
+ax.set_xlabel('Oocyte mtDNA disease fraction')
+ax.set_ylabel('Count')
+plt.show()
+```
+
+#### Exercise 1
+
+Run the simulation with `N=4`, `N=30`, `N=100` keeping `mother_disease_fraction=0.3` and `n_samples=10000`. What is the effect of increasing `N`? For which `N` do oocytes most often have mtDNA fractions close to the mother’s value?
+
+#### Exercise 2
+
+Set `N=30` and vary `mother_disease_fraction` through `0.1`, `0.3` and `0.6`. 
+How does the center of the distribution change? Does the width of the distribution change significantly? 
+
+#### Exercise 3
+
+Two mothers have the same average mtDNA disease fraction. One produces children with very different outcomes, the other does not. Which model parameter explains this difference, and why?
+
+## Oocyte disease model
+
+A simple model of the risk of disease development in a child based on the disease allele frequency 
+in the oocyte is a threshold model. That is 
+
+- **Case 1:** Low disease allele frequency ($f < t_1$) $\rightarrow$ Healthy child
+- **Case 2:** Intermediate disease allele frequency ($t_1 \leq f < t_2$) $\rightarrow$ Diseased child
+- **Case 3:** High allele frequency in the oocyte ($f \geq t_2$) $\rightarrow$ Severely affected child
+
+The cell below implements such a model, where you can control the parameters of oocyte sampling 
+and the threshold model.
+
+```{python}
+#| fig-align: center
+def threshold_model(p, t1, t2):
+    state = np.zeros_like(p)        # Case 1
+    state[(p >= t1) & (p < t2)] = 1 # Case 2
+    state[p >= t2] = 2              # Case 3
+    return state
+
+## Parameters
+N = 30
+mother_disease_fraction = 0.2
+n_samples = 10000
+
+t1 = 0.3 # Disease threshold
+t2 = 0.4 # Severe threshold
+
+## Sampling
+sample, p_ooc = sample_oocyte(mother_disease_fraction, N, n_samples)
+
+child_state = threshold_model(p_ooc, t1, t2)
+states = {0: 'Healthy', 1: 'Diseased', 2:'Severely affected'}
+
+fig, ax = plt.subplots()
+
+for state, desc in states.items():
+    ax.bar(state, np.sum(child_state == state)/n_samples, width=0.8, edgecolor='black')
+
+ax.set_xticks(list(states.keys()))
+ax.set_xticklabels(list(states.values()))
+ax.set_ylabel('Probability')
+ax.set_title('Child outcome distribution')
+ax.set_ylim([0, 1])
+plt.show()
+```
+
+#### Exercise 4 
+
+For `N=30` and `mother_disease_fraction = 0.2`, `t1 = 0.3` and `t2=0.4`, the mother’s mtDNA disease fraction is below the disease threshold. Why do diseased or severely affected children still appear in the simulation?
+
+#### Exercise 5
+
+Keeping `mother_disease_fraction = 0.2`, `t1 = 0.3`, `t2 = 0.4`, compare the outcome probabilities for `N = 4`, `30`, and `100`. Which `N` gives the highest probability of severe outcomes, and why?
