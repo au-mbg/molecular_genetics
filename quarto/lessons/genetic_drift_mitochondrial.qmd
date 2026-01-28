@@ -106,7 +106,7 @@ def model_plot(p_ooc, child_state, t1, t2, bins, n_samples):
     ax.axvspan(t2, 1, color='C2', alpha=0.4, zorder=-1)
 
     # Annotation arrows.
-    ax.annotate('Healthy', (0.1, 0.95), (0.7, 0.95), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C0', lw=1.5), va='center', ha='center', color='C0', fontsize=12)
+    ax.annotate('Healthy', (t1/2, 0.95), (0.7, 0.95), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C0', lw=1.5), va='center', ha='center', color='C0', fontsize=12)
     ax.annotate('Diseased', ((t1+t2)/2, 0.85), (0.7, 0.85), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C1', lw=1.5), va='center', ha='center', color='C1', fontsize=12)
     ax.annotate('Severely\naffected', (t2+0.1, 0.75), (t2+0.3, 0.75), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C2', lw=1.5), va='center', ha='center', color='C2', fontsize=12)
 
