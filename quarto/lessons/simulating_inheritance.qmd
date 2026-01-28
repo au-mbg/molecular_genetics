@@ -38,7 +38,7 @@ Does the simulation repeatedly yield exactly that number? If not, why not?
 
 #### Exercise 2: 
 
-Set `inheritance_probability` to 0.2, 0.5, and 0.8. For each value, run the simulation with `n_samples = 1000`. How does the histogram change?
+Set `inheritance_probability` to 0.5 and 0.25. For each value, run the simulation with `n_samples = 1000`. How does the histogram change?
 
 #### Exercise 3: 
 
@@ -123,8 +123,8 @@ The cell below uses this, you can change the parameters `n_children` ($N$), `n_s
 #| fig-align: center
 
 ## Parameters ##
-n_children = 2
-n_samples = 100
+n_children = 4
+n_samples = 1000
 inheritance_probability = 0.5
 
 ## Draw sample ##
@@ -136,21 +136,21 @@ fig, ax = plt.subplots(figsize=(6, 5))
 colors = amg_si.make_colors(n_children)
 
 for n_child in range(0, n_children+1):
-    ax.bar(n_child, (sample==n_child).sum(), width=0.9, edgecolor='black', color=colors[n_child], alpha=0.7)
+    ax.bar(n_child, (sample==n_child).sum()/n_samples, width=0.9, edgecolor='black', color=colors[n_child], alpha=0.7)
 
 
 ax.set_xticks(range(n_children + 1))
 ax.set_xlabel('Number of children with disease $(k)$')
-ax.set_ylabel('Number of samples')
+ax.set_ylabel('Probability')
 ax.set_title('Distribution of Children Inheriting Disease')
 plt.show()
 ```
 
 #### Exercise 9: 
 
-For `n_children = 4` and `inheritance_probability = 0.5` use the simulation to estimate the probability that no children inherit the disease and that all four children inherit the disease. Are these two probabilities the same, why/why not? 
+For `n_children = 4` and `inheritance_probability = 0.5` use the simulation to estimate the probability that no children inherit the disease and that all four children inherit the disease. 
+Does this agree with your expectation? Are these two probabilities the same, why/why not? 
 
 #### Exercise 10:
 
-Using the same geometric reasoning as in the one and two children cases, what is the "hypervolume" of 
-the region where all four children inherit the disease? 
+Using the same geometric reasoning as in the one and two children cases, what is the "hypervolume" of the region where all four children inherit the disease? 
