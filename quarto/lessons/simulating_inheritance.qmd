@@ -1,7 +1,6 @@
 ---
 title: Simulating Single-Gene Inheritance
 engine: jupyter
-frozen: true
 ---
 
 {{< include tidbits/_install_import.qmd >}}
