@@ -1,7 +1,6 @@
 ---
 title: "Understanding Genetic Traits: From Simple to Complex"
 engine: jupyter
-draft: true
 ---
 
 {{< include tidbits/_install_import.qmd >}}
