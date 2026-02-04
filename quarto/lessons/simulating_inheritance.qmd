@@ -1,6 +1,7 @@
 ---
-title: Simulating Inheritance
+title: Simulating Single-Gene Inheritance
 engine: jupyter
+frozen: true
 ---
 
 {{< include tidbits/_install_import.qmd >}}
@@ -11,16 +12,16 @@ import matplotlib.pyplot as plt
 import au_molecular_genetics.simulating_inheritance as amg_si
 ```
 
-In this notebook we will study inheritance and probe the statistics behind it.
+In this notebook we will study single-gene inheritance and probe the statistics behind it.
 
 ## Monte Carlo Simulation with 1 child.
 
-With one child there are two possible outcomes: 
+After having solved problem 62 in chapter 2, reconsider the situation of the couple III-4 and III-5. Each time they are expecting a child there are two possible outcomes
 
 1. The child inherits the disease.
 2. The child doesn't inherit the disease.
 
-We can simulate this by drawing a uniformly random number between 0 and 1 and if the number is less than the probability of inheritance counting that as the child having inherited the disease.
+To illustrate this risk to the couple, we can simulate a large number of child births by drawing a uniformly random number between 0 and 1 and if the number is less than the probability of inheritance counting that as the child having inherited the disease.
 
 The cell below makes this simulation by drawing `n_samples` random numbers and plotting each value on the left hand side and in the right-hand panel 
 counts the number of children that did not and did inherit the disease. The probability of inheritance is controlled by the `inheritance_probability` input.
@@ -38,18 +39,14 @@ Does the simulation repeatedly yield exactly that number? If not, why not?
 
 #### Exercise 2: 
 
-Set `inheritance_probability` to 0.5 and 0.25. For each value, run the simulation with `n_samples = 1000`. How does the histogram change?
+Set `inheritance_probability` to 0.5 and 0.25 (the risk of a child inheriting an autosomal recessive disease if both parents are carriers). For each value, run the simulation with `n_samples = 1000`. How does the histogram change?
 
 #### Exercise 3: 
-
-You observe that ~30% of children in the simulation inherit the disease. What inheritance probability does that suggest?
-
-#### Exercise 4: 
 
 The cell below makes boxplots the fraction of children that inherit the disease as a function of the number of samples. 
 Consider the following questions 
 
-- How does the spread of the fraction of inheritance change as the number of samples increases?
+- How does the spread of the fraction change as the number of samples increases?
 - Why do the results vary much more for small numbers of samples than for large ones?
 - What value do the results appear to approach as the number of samples becomes large?
 - Why do simulations with `n_samples = 10` sometimes give very high or very low fractions, even though the inheritance probability is 0.5?
@@ -63,8 +60,7 @@ amg_si.one_child_convergence(inheritance_probability=0.5)
 
 ## Monte Carlo Simulation with 2 children.
 
-We can extend the simulation with one child to one where each family has two children.
-The idea is the same, but now we now we have two dimensions - one for each child. A sample is 
+Now consider that the couple is planning to have two children. To illustrate the risk of both children inheriting the disease, we can extend the simulation with one child. The idea is the same, but now we have two dimensions - one for each child. A sample is 
 simulated by drawing two random numbers $c_1$ and $c_2$, now the possible outcomes are
 
 1. None of the children inherit the disease ($c_1 > p$ and $c_2 > p$).
@@ -74,8 +70,7 @@ simulated by drawing two random numbers $c_1$ and $c_2$, now the possible outcom
 
 
 The cell below makes such a simulation, on the left the randomly drawn segregation values are 
-shown and on the right a histogram of the number of samples with neither, one of, or both children 
-inheriting the disease.
+shown and on the right a histogram of the number of samples with neither, one of, or both children inheriting the disease.
 
 ```{python}
 #| fig-align: center
@@ -83,29 +78,29 @@ inheriting the disease.
 amg_si.simulate_two_children_inheritance_mc(n_samples=400, inheritance_probability=0.5)
 ```
 
-#### Exercise 5: 
+#### Exercise 4: 
 
 With `inheritance_probability=0.5` the left-hand plot is split into 4 quadrants of equal area - why is that? 
 
-Why is the number cases where one child inherits the disease larger than the the number of cases where none inherit the disease? 
+Why is the number of cases where one child inherits the disease higher than the the number of cases where none inherit the disease? 
 
-What is the area of the quadrant where both children inherit the disease?
+What is the area of the quadrant where both children inherit the disease? And how does this area relates to the risk of the couple having two children with the disease?
 
-#### Exercise 6: 
+#### Exercise 5: 
 
 If you set `inheritance_probability=0.25`, what happens to the 4 quadrants? What happens to the histogram? 
 
-#### Exercise 7: 
+#### Exercise 6: 
 
 With `inheritance_probability=0.5` and `n_samples=400` what is the expected number of cases where both children have inherited the disease? 
 
 ## More children
 
-The way of simulating we have been doing can be extended to any number of children, however visualizing it becomes more challenging with three children we would draw three numbers ($c_1$, $c_2$, $c_3$) in a 3D cube, which we could plot - but with four children we would draw four numbers ($c_1$, $c_2$, $c_3$, $c_4$) in a 4D "hypercube" which our senses are not particularly equipped to visualize. 
+This way of simulating could be extended to any number of children, however visualizing it becomes more challenging with three children since we would draw three numbers ($c_1$, $c_2$, $c_3$) in a 3D cube, which we could plot - but with four children we would draw four numbers ($c_1$, $c_2$, $c_3$, $c_4$) in a 4D "hypercube" which our senses are not particularly equipped to visualize. 
 
-#### Exercise 8:
+#### Exercise 7:
 
-With four children how many possible outcomes are there? It may help to think of it as how many unique sequences of length four with `0` and `1` are possible (E.g. `0000`, `0001`).
+With four children how many possible outcomes are there? It may help to think of it as how many unique sequences of length four with `0` (healthy child) and `1` (diseased child) are possible (E.g. `0000`, `0001`).
 
 ### Binomial distribution
 
@@ -117,7 +112,7 @@ $$
 
 Where $N$ is the total number of children, $k$ is the number of children who inherit the disease and $p$ is the probability of inheritance.
 
-The cell below uses this, you can change the parameters `n_children` ($N$), `n_samples` and `inheritance_probability` ($p$).
+The cell below draw samples from a binomial distribution and plots the results. You can change the parameters `n_children` ($N$), `n_samples` and `inheritance_probability` ($p$).
 
 ```{python}
 #| fig-align: center
@@ -146,11 +141,11 @@ ax.set_title('Distribution of Children Inheriting Disease')
 plt.show()
 ```
 
-#### Exercise 9: 
+#### Exercise 8: 
 
 For `n_children = 4` and `inheritance_probability = 0.5` use the simulation to estimate the probability that no children inherit the disease and that all four children inherit the disease. 
 Does this agree with your expectation? Are these two probabilities the same, why/why not? 
 
-#### Exercise 10:
+#### Exercise 9:
 
-Using the same geometric reasoning as in the one and two children cases, what is the "hypervolume" of the region where all four children inherit the disease? 
+Using the same geometric reasoning as in the one and two children cases, what is the "hypervolume" of the region where all four children are healthy? Hint: Consider your answer to problem 62C.

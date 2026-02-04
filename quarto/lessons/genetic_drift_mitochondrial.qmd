@@ -12,14 +12,13 @@ import matplotlib.pyplot as plt
 
 ## Exploring variation from mother to oocytes.
 
-Placeholder for figure.
-{{< placeholder 800 400 format=svg >}}
+![](https://raw.githubusercontent.com/au-mbg/molecular_genetics/refs/heads/master/quarto/lessons/media/genetic_drift.jpg)
 
-Even though the mother has a fixed mtDNA composition, random sampling during oocyte formation leads to substantial variation between oocytes, the simulation below explores this. 
+The transmission of heteroplasmic mitochondrial DNA (mtDNA) from mother to offspring is complicated by the genetic bottleneck during development. This bottleneck occurs owing to a profound dilution of mtDNA during the formation of the primordial germ cell (PGC), followed potentially by selective replication of mtDNA genomes. This can lead to profoundly different levels of heteroplasmy in different mature oocytes of women and is an important consideration when counselling mothers with heteroplasmy for pathogenic mtDNA about the risks of having offspring with mitochondrial diseases. The simulation below explores this. 
 
 The simulation has two parameters: 
 
-- `maternal_heteroplasmy`: This is the fraction of disease-causing mtDNA in the mother's cells.
+- `maternal_heteroplasmy`: This is the fraction of pathogenic mtDNA in the mother's PGC.
 - `n_samples`: The number of oocytes sampled, the default of `10000` corresponds to more oocytes than a single woman produces
 whereas a number like 500 could be considered a snapshot from a 
 single woman. 
@@ -46,7 +45,7 @@ fig, ax = plt.subplots()
 N = 30
 bins = np.linspace(-0.5/N, 1 + 0.5/N, N + 2)
 ax.hist(p_ooc, bins=bins, edgecolor='black')
-ax.set_xlabel('Oocyte mtDNA disease fraction')
+ax.set_xlabel('Oocyte pathogenic mtDNA fraction')
 ax.set_ylabel('Count')
 plt.show()
 ```
@@ -67,14 +66,14 @@ How does the center of the distribution change? Does the width of the distributi
 
 #### Exercise 3
 
-Two mothers have the same average mtDNA disease fraction. One produces children with very different outcomes, the other does not. Why can that happen? 
+Two women have the same average pathogenic mtDNA fraction. One gives birth to a set of children with very different outcomes, the other does not instead giving birth to a set of children with similar outcomes. Explain how that can happen? 
 
-## Oocyte disease model
+## Disease model
 
-A simple model of the risk of disease development in a child, based on the disease allele frequency in the oocyte is a threshold model. That is
+A simple model of the risk of disease development in a child, based on the fraction of pathogenic mtDNA in the oocyte is a threshold model. That is
 
 - **Case 1:** Low disease allele frequency ($f < t_1$) $\rightarrow$ Healthy child
-- **Case 2:** Intermediate disease allele frequency ($t_1 \leq f < t_2$) $\rightarrow$ Diseased child
+- **Case 2:** Intermediate disease allele frequency ($t_1 \leq f < t_2$) $\rightarrow$ Mildly affected child
 - **Case 3:** High allele frequency in the oocyte ($f \geq t_2$) $\rightarrow$ Severely affected child
 
 The cell below implements such a model, where you can control the parameters of oocyte sampling and the threshold model.
@@ -89,7 +88,7 @@ def threshold_model(p, t1, t2):
 
 def model_plot(p_ooc, child_state, t1, t2, bins, n_samples):
 
-    states = {0: 'Healthy', 1: 'Diseased', 2: 'Severely affected'}
+    states = {0: 'Healthy', 1: 'Mildly\naffected', 2: 'Severely\naffected'}
 
     ## Plotting
     fig, axes = plt.subplots(1, 2, figsize=(10, 5))
@@ -107,12 +106,12 @@ def model_plot(p_ooc, child_state, t1, t2, bins, n_samples):
 
     # Annotation arrows.
     ax.annotate('Healthy', (t1/2, 0.95), (0.7, 0.95), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C0', lw=1.5), va='center', ha='center', color='C0', fontsize=12)
-    ax.annotate('Diseased', ((t1+t2)/2, 0.85), (0.7, 0.85), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C1', lw=1.5), va='center', ha='center', color='C1', fontsize=12)
-    ax.annotate('Severely\naffected', (t2+0.1, 0.75), (t2+0.3, 0.75), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C2', lw=1.5), va='center', ha='center', color='C2', fontsize=12)
+    ax.annotate('Midly\naffected', ((t1+t2)/2, 0.85), (0.7, 0.85), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C1', lw=1.5), va='center', ha='center', color='C1', fontsize=12)
+    ax.annotate('Severely\naffected', (t2+0.1, 0.72), (t2+0.3, 0.72), xycoords=(ax.transAxes, ax.transAxes), arrowprops=dict(arrowstyle='->', color='C2', lw=1.5), va='center', ha='center', color='C2', fontsize=12)
 
     ## Labels and limits
-    ax.set_xlabel('Oocyte mtDNA disease fraction')
-    ax.set_ylabel('Count')
+    ax.set_xlabel('Oocyte pathogenic mtDNA fraction')
+    ax.set_ylabel('Count')  
     ax.set_xlim([0, 1])
 
     ## Right plot of child outcomes.
@@ -147,8 +146,8 @@ model_plot(p_ooc, child_state, t1, t2, bins, n_samples)
 
 #### Exercise 4 
 
-With `maternal_heteroplasmy = 0.2`, `t1 = 0.3` and `t2 = 0.4`, the mother’s mtDNA disease fraction (`maternal_heteroplasmy`) is below the disease threshold. Why do diseased or severely affected children still appear in the simulation?
+With `maternal_heteroplasmy = 0.2`, `t1 = 0.3` and `t2 = 0.4`, the mother’s fraction of pathogenic mtDNA (`maternal_heteroplasmy`) is below the disease threshold (the mother is healthy). Why do mildly or severely affected children still appear in the simulation?
 
 #### Exercise 5
 
-Based on the simulations can you explain how a disease might skip a generation? That is for example a mother that has disease free children but some of her grandchildren are diseased. 
+Based on the simulations can you explain how a disease caused by pathogenic mtDNA might skip a generation? That is for example a woman that has several healthy children but some of her grandchildren are diseased. 
