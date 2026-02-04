@@ -11,3 +11,6 @@ wheels/
 
 # VS Code
 .vscode/
+
+# quarto
+quarto/_output/
