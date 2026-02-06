@@ -3,7 +3,7 @@ project:
   output-dir: _output/
   render:
     # - lessons/simulating_inheritance.qmd
-    - lessons/simulating_inheritance.qmd
+    # - lessons/simulating_inheritance.qmd
     - lessons/genetic_drift_mitochondrial.qmd
 
 resources:

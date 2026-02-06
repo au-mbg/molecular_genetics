@@ -66,7 +66,7 @@ How does the center of the distribution change? Does the width of the distributi
 
 #### Exercise 3
 
-Two women have the same average pathogenic mtDNA fraction. One gives birth to a set of children with very different outcomes, the other does not instead giving birth to a set of children with similar outcomes. Explain how that can happen? 
+Two women have the same average pathogenic mtDNA fraction. One gives birth to a set of children with very different outcomes, the other is giving birth to a set of children with similar outcomes. Explain how that can happen? 
 
 ## Disease model
 
