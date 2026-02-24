@@ -4,7 +4,8 @@ project:
   render:
     # - lessons/simulating_inheritance.qmd
     # - lessons/simulating_inheritance.qmd
-    - lessons/genetic_drift_mitochondrial.qmd
+    # - lessons/genetic_drift_mitochondrial.qmd
+    - lessons/interactive_genetic_mapping.qmd
 
 resources:
   - src/fysisk_biokemi/datasets/files/**
