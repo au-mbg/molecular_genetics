@@ -10,7 +10,7 @@ requires-python = ">=3.11"
 dependencies = [
     "matplotlib",
     "numpy",
-    "seaborn",
+    "seaborn", "shinylive>=0.8.6,<0.9",
 ]
 
 [build-system]
@@ -22,3 +22,23 @@ dev = [
     "ipykernel>=7.1.0",
     "jupyter>=1.1.1",
 ]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+au-molecular-genetics = { path = ".", editable = true }
+
+[tool.pixi.environments]
+default = { solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
+
+[tool.pixi.tasks.render-website]
+cmd = "quarto render"
+cwd = "website"
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+quarto = ">=1.8.27,<2"

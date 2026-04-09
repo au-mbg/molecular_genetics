@@ -15,3 +15,9 @@ wheels/
 # quarto
 quarto/_output/
 eksamen/
+
+website/_site/
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml

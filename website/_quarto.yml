@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Molecular Genetics"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: midterm_quiz.qmd
+        text: Prøve eksamen quiz
+
+format:
+  html:
+    css: config/styling/styles.css
+    theme:
+      light: cosmo
+      dark: [darkly, config/styling/theme-dark.scss]
+    respect-user-color-scheme: true
+
+
+

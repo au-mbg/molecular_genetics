@@ -1,0 +1,29 @@
+---
+title: Prøve eksamen multiple choice quiz
+filters:
+  - shinylive
+---
+
+::: {.column-screen}
+
+```{shinylive-python}
+#| standalone: true
+#| viewerHeight: 1200
+## file: app.py
+from mcqpy_shiny.embed_app import create_app
+
+app = create_app(
+    fixed_url="https://raw.githubusercontent.com/au-mbg/molecular_genetics/refs/heads/master/web_quiz/quiz.json",
+    fixed_token=None,
+    allow_manual_load=True,
+    title='',
+    card_width='900px',
+)
+## file: requirements.txt
+shiny>=1.2.1
+pydantic
+mcqpy-core
+mcqpy-shiny
+```
+
+:::
