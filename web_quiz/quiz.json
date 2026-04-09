@@ -3,13 +3,13 @@
   "metadata": {
     "title": "Molekylær Genetik / Midterm 2026",
     "description": null,
-    "source": "configs/midterm_2026-v1.yaml"
+    "source": "midterm_2026-v1-web.yaml"
   },
   "questions": [
     {
       "qid": "1ebd7ba8-a14b-52ea-8803-f76d91c36b30",
       "slug": "chapter_19_q022",
-      "text": "~Presume that the number of leaves in clovers is controlled by the combined actions of two genes, A and B, with no contributions from the environment. A/A results in four leaves, A/a in three leaves, and a/a in two leaves. Moreover, the genotypes B/B and B/b result in one additional leaf (b/b has no effect on leaf number).\n\nBased on the above information,",
+      "text": "Presume that the number of leaves in clovers is controlled by the combined actions of two genes, A and B, with no contributions from the environment. A/A results in four leaves, A/a in three leaves, and a/a in two leaves. Moreover, the genotypes B/B and B/b result in one additional leaf (b/b has no effect on leaf number). Based on the above information,",
       "choices": [
         "A has an additive mode of action and B has a dominant mode of action.",
         "A has a dominant mode of action and B has an additive mode of action.",
@@ -34,7 +34,7 @@
     {
       "qid": "2af091ee-659e-58ed-99bd-176392264dfd",
       "slug": "chapter_04_q050",
-      "text": "~DNA in which there is a mismatched nucleotide pair in a gene under study is called",
+      "text": "DNA in which there is a mismatched nucleotide pair in a gene under study is called",
       "choices": [
         "a chiasma.",
         "segregated DNA.",
@@ -59,7 +59,7 @@
     {
       "qid": "22d77b0e-d365-5af4-8afa-ee7eeebae69f",
       "slug": "chapter_14_q002",
-      "text": "~The human genome is comprised of how many base pairs (bp)?",
+      "text": "The human genome is comprised of how many base pairs (bp)?",
       "choices": [
         "1 billion",
         "2 billion",
@@ -84,7 +84,7 @@
     {
       "qid": "541e4f4a-b32e-5a8a-998c-ab27af78989d",
       "slug": "chapter_01_q012",
-      "text": "~Using molecular techniques, researchers have knocked out both copies of gene G in a series of genetically identical mouse embryos. These mice develop normally, except for their forelimbs, which are missing several small bones. What can be concluded from the results of this experiment?",
+      "text": "Using molecular techniques, researchers have knocked out both copies of gene G in a series of genetically identical mouse embryos. These mice develop normally, except for their forelimbs, which are missing several small bones. What can be concluded from the results of this experiment?",
       "choices": [
         "Gene G encodes a protein that is a crucial component of the forelimbs' small bones in mice.",
         "Gene G encodes a protein that is normally only present in the forelimb cells of developing mice.",
@@ -109,7 +109,7 @@
     {
       "qid": "614a8de4-267c-504d-9bd5-8dc53b08553e",
       "slug": "chapter_02_q006",
-      "text": "~Mice (Mus musculus) have 40 chromosomes per diploid cell (2n = 40). How many double- stranded DNA molecules and how many chromosomes are there in a mouse cell that is in the G2 stage of the cell cycle?",
+      "text": "Mice (Mus musculus) have 40 chromosomes per diploid cell (2n = 40). How many double- stranded DNA molecules and how many chromosomes are there in a mouse cell that is in the G2 stage of the cell cycle?",
       "choices": [
         "40 DNA molecules and 20 chromosomes",
         "40 DNA molecules and 40 chromosomes",
@@ -134,7 +134,7 @@
     {
       "qid": "21074613-a0c6-5c1c-9912-e7d6a6be8123",
       "slug": "chapter_05_q016",
-      "text": "~The diagram below shows a simplified version of the biochemical pathway responsible for fruit color in peppers. Assume that Enzyme 1 is encoded by gene A (a is a null allele), Enzyme 2 is encoded by gene B (b is a null allele), and Enzyme 3, which breaks down the chlorophyll present in the fruit, is encoded by gene C (c is a null allele). In the absence of Enzyme 3, the fruit takes a brown color in the presence of red pigment, but it remains green in the absence of red pigment.\n\n\n\nA pepper plant of genotype c/c is crossed to a plant of genotype b/b. The F1 is selfed to obtain an F2. What are the expected phenotypic ratios in this F2?",
+      "text": "The diagram below shows a simplified version of the biochemical pathway responsible for fruit color in peppers. Assume that Enzyme 1 is encoded by gene A (a is a null allele), Enzyme 2 is encoded by gene B (b is a null allele), and Enzyme 3, which breaks down the chlorophyll present in the fruit, is encoded by gene C (c is a null allele). In the absence of Enzyme 3, the fruit takes a brown color in the presence of red pigment, but it remains green in the absence of red pigment.\nA pepper plant of genotype c/c is crossed to a plant of genotype b/b. The F1 is selfed to obtain an F2. What are the expected phenotypic ratios in this F2?",
       "choices": [
         "9 brown : 4 green : 1 yellow",
         "9 brown : 3 green : 3 red : 1 yellow",
@@ -161,13 +161,13 @@
     {
       "qid": "4ac2369b-b1b4-59da-b25b-c74b4f39cc48",
       "slug": "chapter_18_q025",
-      "text": "~Sequencing of a pine tree population reveals four variants of a particular SNP. Eighty percent (80\\%) of the trees have the G, 15\\% the A, 3\\% the T, and 2\\% the C variant. What is the genetic diversity of the pine tree population with respect to this SNP?",
+      "text": "Sequencing of a pine tree population reveals four variants of a particular SNP. Eighty percent (80\\%) of the trees have the G, 15\\% the A, 3\\% the T, and 2\\% the C variant. What is the genetic diversity of the pine tree population with respect to this SNP?",
       "choices": [
-        "0.007\\%",
-        "2.0\\%",
-        "33.6\\%",
-        "66.4\\%",
-        "80\\%"
+        "$0.007\\%$",
+        "$2.0\\%$",
+        "$33.6\\%$",
+        "$66.4\\%$",
+        "$80\\%$"
       ],
       "question_type": "single",
       "point_value": 1,
@@ -186,7 +186,7 @@
     {
       "qid": "dcb4575f-bb5e-5e0f-984f-e8635933e2ca",
       "slug": "chapter_03_q040",
-      "text": "~Fruit color in a particular plant is controlled by a set of three QTLs (quantitative trait loci, or ''polygenes'') that work in an equal and additive manner. Each QTL has two alleles (i.e., A and a); each allele represented by a capital letter produces one dose of yellow pigment, while alleles represented with lowercase letters do not produce any pigment at all.\n\nIf a trihybrid plant (A/a ; B/b ; C/c) is testcrossed, what proportion of the offspring will have a fruit color phenotype that is different from both the trihybrid and the tester parents? (Assume no environmental effects.)",
+      "text": "Fruit color in a particular plant is controlled by a set of three QTLs (quantitative trait loci, or \"polygenes\") that work in an equal and additive manner. Each QTL has two alleles (i.e., A and a); each allele represented by a capital letter produces one dose of yellow pigment, while alleles represented with lowercase letters do not produce any pigment at all.\n\nIf a trihybrid plant (A/a ; B/b ; C/c) is testcrossed, what proportion of the offspring will have a fruit color phenotype that is different from both the trihybrid and the tester parents? (Assume no environmental effects.)",
       "choices": [
         "1/8",
         "1/4",
@@ -211,7 +211,7 @@
     {
       "qid": "45c387ff-b8b4-5cbb-a00e-4b6759de0c7c",
       "slug": "chapter_04_q006",
-      "text": "~A male mouse of genotype A/a{\\textperiodcentered}B/b is testcrossed multiple times. Overall, these testcrosses produce 11 mice of phenotype AB, 81 Ab, 77 aB, and 14 ab. Based on these data, the genotypes of the male mouse's parents are most likely",
+      "text": "A male mouse of genotype A/a $\\cdot$ B/b is testcrossed multiple times. Overall, these testcrosses produce 11 mice of phenotype AB, 81 Ab, 77 aB, and 14 ab. Based on these data, the genotypes of the male mouse's parents are most likely",
       "choices": [
         "A/a ; B/b and A/a ; B/b.",
         "A B / A B and a b / a b.",
@@ -236,7 +236,7 @@
     {
       "qid": "f9406f1e-7344-5e83-b4b2-4613f2c56437",
       "slug": "chapter_05_q031",
-      "text": "~An A/a ; B/b dihybrid is testcrossed, and about 3/4 of the progeny phenotypically resembles the dihybrid parent, while 1/4 resembles the tester parent. If the dihybrid parent was selfed, what would be the expected phenotypic ratio in the progeny?",
+      "text": "An A/a ; B/b dihybrid is testcrossed, and about 3/4 of the progeny phenotypically resembles the dihybrid parent, while 1/4 resembles the tester parent. If the dihybrid parent was selfed, what would be the expected phenotypic ratio in the progeny?",
       "choices": [
         "9:3:4",
         "9:7",
@@ -261,7 +261,7 @@
     {
       "qid": "e878b9be-e103-50a2-ae52-9ef089f9635b",
       "slug": "chapter_04_q001",
-      "text": "~A plant of genotype C/C ; d/d is crossed to c/c ; D/D, and the F1 is testcrossed. If the genes in question are unlinked, the percentage of double homozygous recessive individuals in the offspring of the testcross will be",
+      "text": "A plant of genotype C/C ; d/d is crossed to c/c ; D/D, and the F1 is testcrossed. If the genes in question are unlinked, the percentage of double homozygous recessive individuals in the offspring of the testcross will be",
       "choices": [
         "less than 25\\%.",
         "about 25\\%.",
@@ -286,7 +286,7 @@
     {
       "qid": "3b47f9ec-0605-525a-8187-7039f177d4ad",
       "slug": "chapter_14_q004",
-      "text": "~The term coverage, when applied to genomics, means sequencing",
+      "text": "The term coverage, when applied to genomics, means sequencing",
       "choices": [
         "every base pair of the entire genome.",
         "every base pair of a single chromosome.",
@@ -311,13 +311,13 @@
     {
       "qid": "9dc847d8-9232-505f-9755-6ea3cdb8cb80",
       "slug": "chapter_02_q001",
-      "text": "~If a plant of genotype A/a is selfed, and numerous offspring are scored, what proportion of the progeny is expected to have homozygous genotypes?",
+      "text": "If a plant of genotype A/a is selfed, and numerous offspring are scored, what proportion of the progeny is expected to have homozygous genotypes?",
       "choices": [
-        "0",
-        "25\\%",
-        "50\\%",
-        "75\\%",
-        "100\\%"
+        "$0$",
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$100\\%$"
       ],
       "question_type": "single",
       "point_value": 1,
@@ -336,7 +336,7 @@
     {
       "qid": "a907095c-6137-52cf-bf04-ea0848a08cb5",
       "slug": "chapter_01_q015",
-      "text": "~Which enzyme cuts DNA at a specific location?",
+      "text": "Which enzyme cuts DNA at a specific location?",
       "choices": [
         "polymerase",
         "ligase",
@@ -361,13 +361,13 @@
     {
       "qid": "b7cea3e3-2d3c-5966-9602-fcb2b62f6db3",
       "slug": "chapter_05_q010",
-      "text": "~In the multiple-allele series that determines coat color in rabbits, c+ encodes agouti, cch encodes chinchilla, and ch encodes Himalayan. Dominance within this allelic series is c+ \\ensuremath{>} cch \\ensuremath{>} ch. In a cross of c+/ch {\\texttimes} cch/ch, what proportion of progeny will be chinchilla?",
+      "text": "In the multiple-allele series that determines coat color in rabbits, c+ encodes agouti, cch encodes chinchilla, and ch encodes Himalayan. Dominance within this allelic series is c+ $>$ cch $>$ ch. In a cross of c+/ch $\\times$ cch/ch, what proportion of progeny will be chinchilla?",
       "choices": [
-        "0\\%",
-        "10\\%",
-        "25\\%",
-        "50\\%",
-        "100\\%"
+        "$0\\%$",
+        "$10\\%$",
+        "$25\\%$",
+        "$50\\%$",
+        "$100\\%$"
       ],
       "question_type": "single",
       "point_value": 1,
@@ -386,13 +386,13 @@
     {
       "qid": "6906dd7b-ec94-5a8c-aaf4-7e7cb3d15da3",
       "slug": "chapter_02_q017",
-      "text": "~A very common type of red{\\textendash}green color blindness in humans is caused by a mutation in a gene located on the X chromosome. Knowing that the mutant allele is recessive to the wild type, what is the probability that the son of a woman whose father is color-blind is going to also be color-blind?",
+      "text": "A very common type of red-green color blindness in humans is caused by a mutation in a gene located on the X chromosome. Knowing that the mutant allele is recessive to the wild type, what is the probability that the son of a woman whose father is color-blind is going to also be color-blind?",
       "choices": [
-        "0\\%",
-        "25\\%",
-        "50\\%",
-        "75\\%",
-        "100\\%"
+        "$0\\%$",
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$100\\%$"
       ],
       "question_type": "single",
       "point_value": 1,
@@ -411,7 +411,7 @@
     {
       "qid": "c8a8d6b2-7568-5781-8a0d-df6f29680d0d",
       "slug": "chapter_03_q027",
-      "text": "~In a Drosophila cross, you mate a parental line displaying crossed eyes (recessive trait, autosomal) and corkscrew bristles (recessive trait, autosomal) by a wild-type fly. The sites of the two genes are known to be unlinked. The F1 flies are wild type. You self the F1 flies in the hope of regenerating the cross-eyed/corkscrew phenotype.\n\nHow many individual F2 flies would you need to analyze to have 95\\% confidence of finding at least one cross-eyed/corkscrew fly?",
+      "text": "In a Drosophila cross, you mate a parental line displaying crossed eyes (recessive trait, autosomal) and corkscrew bristles (recessive trait, autosomal) by a wild-type fly. The sites of the two genes are known to be unlinked. The F1 flies are wild type. You self the F1 flies in the hope of regenerating the cross-eyed/corkscrew phenotype.\nHow many individual F2 flies would you need to analyze to have 95\\% confidence of finding at least one cross-eyed/corkscrew fly?",
       "choices": [
         "16 flies",
         "8 flies",
@@ -436,7 +436,7 @@
     {
       "qid": "104ede7d-d4f3-5680-8590-074225373b2f",
       "slug": "chapter_05_q052",
-      "text": "~The one-gene{\\textendash}one-polypeptide hypothesis is",
+      "text": "The one-gene-one-polypeptide hypothesis is",
       "choices": [
         "The theory that one enzyme is responsible for the cleavage of a single DNA strand.",
         "The theory that one enzyme is responsible for the cleavage of a single polypeptide.",
@@ -461,7 +461,7 @@
     {
       "qid": "5b19e427-ea20-5141-ac61-05f0b7813c06",
       "slug": "chapter_03_q008",
-      "text": "~Two pure-breeding mutant plants were crossed: One had small leaves (wild-type leaves are large), and the other made pink flowers (wild-type flowers are purple). All F1 individuals had small leaves and purple flowers. Assuming independent assortment, what proportion of the F2 individuals are expected to be phenotypically wild type?",
+      "text": "Two pure-breeding mutant plants were crossed: One had small leaves (wild-type leaves are large), and the other made pink flowers (wild-type flowers are purple). All F1 individuals had small leaves and purple flowers. Assuming independent assortment, what proportion of the F2 individuals are expected to be phenotypically wild type?",
       "choices": [
         "1/16",
         "3/16",
@@ -486,7 +486,7 @@
     {
       "qid": "002e399b-96df-5b11-a669-3bf04f39c479",
       "slug": "chapter_19_q026",
-      "text": "~The phenotypic deviation that is transmitted from parents to their offspring is known as",
+      "text": "The phenotypic deviation that is transmitted from parents to their offspring is known as",
       "choices": [
         "additive genetic variance.",
         "dominance variance.",
@@ -511,7 +511,7 @@
     {
       "qid": "ebecb2fa-ea9f-54c8-82c0-cc2809fa31e0",
       "slug": "chapter_04_q038",
-      "text": "~Neurospora loci d and f are located on the same chromosome. The d locus always segregates at MI, while the e locus segregates at MII at a frequency of 10\\%. Assuming complete interference, the distance between loci d and f is",
+      "text": "Neurospora loci d and f are located on the same chromosome. The d locus always segregates at MI, while the e locus segregates at MII at a frequency of 10\\%. Assuming complete interference, the distance between loci d and f is",
       "choices": [
         "5 map units.",
         "10 map units.",
@@ -536,7 +536,7 @@
     {
       "qid": "0a4206da-8664-5462-970a-ea19130f9b66",
       "slug": "chapter_02_q035",
-      "text": "~Which progeny phenotypic ratio is expected in a diploid monohybrid testcross?",
+      "text": "Which progeny phenotypic ratio is expected in a diploid monohybrid testcross?",
       "choices": [
         "1:1",
         "1:2:1",
@@ -561,7 +561,7 @@
     {
       "qid": "b2d3847b-f19c-5fae-8e2f-5173dc56d205",
       "slug": "chapter_02_q062",
-      "text": "~An orange flower is crossed with a wild-type purple flower. All the F1 flowers are purple, and of 1760 F2 flowers sampled, 1320 are purple and 440 are orange. What is the phenotypic ratio of the F2 progeny?",
+      "text": "An orange flower is crossed with a wild-type purple flower. All the F1 flowers are purple, and of 1760 F2 flowers sampled, 1320 are purple and 440 are orange. What is the phenotypic ratio of the F2 progeny?",
       "choices": [
         "2:1",
         "1:4",
@@ -586,7 +586,7 @@
     {
       "qid": "a1f7a85d-8705-581c-b9ee-a269d27911be",
       "slug": "chapter_18_q001",
-      "text": "~Which of the following is a question that population genetics would address?",
+      "text": "Which of the following is a question that population genetics would address?",
       "choices": [
         "How does cancer spread from one tissue to another?",
         "How does the cell copy DNA?",
@@ -611,7 +611,7 @@
     {
       "qid": "d9de1c59-bdec-569a-9096-84b5f7c24bf8",
       "slug": "chapter_01_q001",
-      "text": "~The early 1900s was an important period for genetics due to which of the following major events?",
+      "text": "The early 1900s was an important period for genetics due to which of the following major events?",
       "choices": [
         "the rediscovery of Gregor Mendel's scientific findings",
         "Watson and Crick solving the structure of DNA",
@@ -636,7 +636,7 @@
     {
       "qid": "a90dfc5c-a5ab-5661-a2e8-5d9557d931e3",
       "slug": "chapter_02_q004",
-      "text": "~In mountain rabbits, the EL-1 gene is located on chromosome 3. Four alleles of this gene have been identified in the population. With respect to EL-1, what is the maximum number of genotypes in the progeny of a SINGLE CROSS between two mountain rabbits?",
+      "text": "In mountain rabbits, the EL-1 gene is located on chromosome 3. Four alleles of this gene have been identified in the population. With respect to EL-1, what is the maximum number of genotypes in the progeny of a SINGLE CROSS between two mountain rabbits?",
       "choices": [
         "1",
         "2",
@@ -661,7 +661,7 @@
     {
       "qid": "284e6557-4ff0-5dd1-8406-b8bdf5ccbd01",
       "slug": "chapter_01_q010",
-      "text": "~You have come across a dog (named Cindy) that does not have a tail. Interestingly, all the puppies produced by this dog don't have a tail. If the lack of tail is caused by a genetic mutation, where has this mutation most likely taken place?",
+      "text": "You have come across a dog (named Cindy) that does not have a tail. Interestingly, all the puppies produced by this dog don't have a tail. If the lack of tail is caused by a genetic mutation, where has this mutation most likely taken place?",
       "choices": [
         "in Cindy's gametes",
         "in the cells that should normally have given rise to Cindy's tail",
@@ -686,7 +686,7 @@
     {
       "qid": "a27e3d1c-61a3-5ff9-8e9d-3161c7f460ed",
       "slug": "chapter_14_q020",
-      "text": "~The process of identifying all of the functional elements of the genome and determining what those genes do is known as",
+      "text": "The process of identifying all of the functional elements of the genome and determining what those genes do is known as",
       "choices": [
         "bioinformatics.",
         "annotation.",
@@ -711,7 +711,7 @@
     {
       "qid": "19c78b62-9ffe-5300-8767-a4f48e831c23",
       "slug": "chapter_03_q039",
-      "text": "~Fruit color in a particular plant is controlled by a set of three QTLs (quantitative trait loci, or ''polygenes'') that work in an equal and additive manner. Each QTL has two alleles (i.e., A and a); each allele represented by a capital letter produces one dose of yellow pigment, while alleles represented with lowercase letters do not produce any pigment at all.\n\nA trihybrid plant (A/a ; B/b ; C/c) is selfed. Assuming no effects of the environment, what proportion of the offspring will have the same fruit color phenotype as the dihybrid parent?",
+      "text": "Fruit color in a particular plant is controlled by a set of three QTLs (quantitative trait loci, or \"polygenes\") that work in an equal and additive manner. Each QTL has two alleles (i.e., A and a); each allele represented by a capital letter produces one dose of yellow pigment, while alleles represented with lowercase letters do not produce any pigment at all.\nA trihybrid plant (A/a ; B/b ; C/c) is selfed. Assuming no effects of the environment, what proportion of the offspring will have the same fruit color phenotype as the dihybrid parent?",
       "choices": [
         "0.031",
         "0.125",
@@ -736,7 +736,7 @@
     {
       "qid": "9fb06d17-0ae0-57c3-976a-b6d5c6dac1de",
       "slug": "chapter_14_q001",
-      "text": "~The genome of Hemophilus influenzae, the first free-living organism to have its genome sequenced, is how large?",
+      "text": "The genome of Hemophilus influenzae, the first free-living organism to have its genome sequenced, is how large?",
       "choices": [
         "0.5 megabase",
         "1.0 megabase",
