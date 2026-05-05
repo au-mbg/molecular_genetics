@@ -1,0 +1,6 @@
+---
+title: Quizzes
+---
+
+- [Midterm](midterm_quiz.qmd): Multiple choice quiz with 30 questions.
+- [Practice exam](test_exam.qmd): Multiple choice quiz with 30 questions.

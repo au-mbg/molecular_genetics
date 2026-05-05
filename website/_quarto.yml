@@ -7,11 +7,9 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: midterm_quiz.qmd
-        text: Prøve eksamen quiz
-      - href: test_exam.qmd
-        text: Prøve eksamen quiz 2
-
+      - href: quizzes/index.qmd
+        text: Quizzes
+        icon: patch-question
 format:
   html:
     css: config/styling/styles.css

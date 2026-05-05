@@ -1,5 +1,5 @@
 ---
-title: Prøve eksamen multiple choice quiz
+title: Midterm
 filters:
   - shinylive
 ---
