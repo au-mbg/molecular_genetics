@@ -361,7 +361,7 @@
     {
       "qid": "292852a7-8ba0-54ba-9e79-7054b399a3b9",
       "slug": "chapter_17_q031",
-      "text": "In yeast, the gene phe1 is on chromosome 3 and lys4 is on chromosome 7. The\nprogeny (spores) from the cross + ; + {\\texttimes} phe1 ; lys4 were \\\\\n\n$$\n\\begin{aligned}\n47\\% \\quad \\quad &+;+ \\\\\n44\\% \\quad \\quad &\\mathrm{phe1};\\mathrm{lys4} \\\\\n4\\% \\quad \\quad &\\mathrm{phe1};+  \\\\\n5\\% \\quad \\quad &+ ; \\mathrm{lys4} \\\\\n\\end{aligned}\n$$\n\nThis result suggests that:\n",
+      "text": "In yeast, the gene phe1 is on chromosome 3 and lys4 is on chromosome 7. The\nprogeny (spores) from the cross + ; + {\\texttimes} phe1 ; lys4 were \\\\\n\n$47\\% \\quad \\quad +;+ $ \\\\\n$44\\% \\quad \\quad \\mathrm{phe1};\\mathrm{lys4} $ \\\\\n$4\\% \\quad \\quad \\mathrm{phe1};+  $ \\\\\n$5\\% \\quad \\quad + ; \\mathrm{lys4} $ \\\\\n\nThis result suggests that:\n",
       "choices": [
         "a nondisjunction occurred.",
         "one parent has a deletion.",
