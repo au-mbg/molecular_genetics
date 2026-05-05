@@ -7,14 +7,14 @@
   },
   "questions": [
     {
-      "qid": "4deafb2b-11c0-5cb4-9aaf-4a9e0a75734f",
-      "slug": "chapter_01_q011",
-      "text": "Which of the following features makes a species suitable as a model organism?",
+      "qid": "643ad023-76c7-59a5-be01-2be41115f011",
+      "slug": "chapter_14_q018",
+      "text": "Which of the following statements is/are TRUE about reverse genetics?",
       "choices": [
-        "small organism",
-        "short generation time",
-        "small genome",
-        "produce large number of offspring",
+        "Reverse genetics analysis starts with an altered phenotype in an organism.",
+        "Reverse genetics analysis starts with a known DNA sequence, mRNA, or protein.",
+        "Reverse genetics can be performed by random mutagenesis, targeted mutagenesis, or by phenocopying.",
+        "Reverse genetics analysis starts with a known DNA sequence, mRNA, or protein, and it can be performed by random mutagenesis, targeted mutagenesis, or by phenocopying.",
         "All of the answer options are correct."
       ],
       "question_type": "single",
@@ -25,56 +25,6 @@
         0,
         0,
         1
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "e3b9f2e7-5027-55bd-a36b-8da4d96fad63",
-      "slug": "chapter_01_q002",
-      "text": "A sample of normal double-stranded DNA was found to have a guanine content of 18\\%. What is the expected proportion of adenine?",
-      "choices": [
-        "9\\%",
-        "32\\%",
-        "36\\%",
-        "68\\%",
-        "82\\%"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "9f614032-bd6d-5682-b02b-0196619364bf",
-      "slug": "chapter_02_q061",
-      "text": "What is the phenotypic ratio of a cross between heterozygous dominant and wild-type parents?",
-      "choices": [
-        "1:1",
-        "2:1",
-        "3:1",
-        "1:4",
-        "1:2"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        1,
-        0,
-        0,
-        0,
-        0
       ],
       "images": [],
       "image_captions": {},
@@ -107,72 +57,22 @@
       "has_explanation": false
     },
     {
-      "qid": "ee091f19-de40-564a-9a50-b82297902469",
-      "slug": "chapter_03_q009",
-      "text": "Mendel's Y/y ; R/r dihybrid pea plants were the F1 of the cross between a double homozygous dominant and a double homozygous recessive. If we testcrossed these dihybrids, what proportion of the offspring would be recombinant and phenotypically resemble the F1 dihybrid?",
+      "qid": "775a683a-c354-567a-ac27-81274f3b0ab8",
+      "slug": "chapter_14_q003",
+      "text": "The strategy for obtaining a genomic sequence can be divided into four steps:\n(1) overlap contigs for complete sequence, (2) sequence each fragment, (3) cut many\ngenome copies into random fragments, and (4) overlap sequence reads. What is the\norder of the four steps?'\n",
       "choices": [
-        "$0\\%$",
-        "$25\\%$",
-        "$50\\%$",
-        "$75\\%$",
-        "$100\\%$"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "f1d58bf5-041c-5270-b759-11e6f47c4a23",
-      "slug": "chapter_03_q012",
-      "text": "In hogs, a dominant allele B results in a white belt around the body. At a separate locus, the dominant allele S causes fusion of the two parts of the normally cloven hoof resulting in a condition known as syndactyly. A belted syndactylous sow was crossed to an unbelted cloven-hoofed boar, and in the litter there were:  The genotypes of the parents can best be represented as which of the following?  25$\\%$ belted syndactylous  25$\\%$ belted cloven  25$\\%$ unbelted syndactylous  25$\\%$ unbelted cloven",
-      "choices": [
-        "B/B ; S/S $\\times$ b/b ; s/s",
-        "B/b ; S/s $\\times$ b/b ; S/S",
-        "B/b ; S/s $\\times$ B/B ; s/s",
-        "b/b ; S/s $\\times$ B/b ; s/s",
-        "B/b ; S/s $\\times$ b/b ; s/s"
+        "1, 2, 3, and 4",
+        "4, 3, 2, and 1",
+        "3, 2, 4, and 1",
+        "3, 2, 1, and 4",
+        "2, 4, 3, and 1"
       ],
       "question_type": "single",
       "point_value": 1,
       "correct_onehot": [
         0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "4ca008b6-1c27-5ca6-bdb5-5949a19d1102",
-      "slug": "chapter_04_q031",
-      "text": "In a linear tetrad analysis, the second division segregation (MII) frequency of the cyh locus is 16$\\%$. The map distance from this locus to its centromere is",
-      "choices": [
-        "4 m.u.",
-        "8 m.u.",
-        "16 m.u.",
-        "32 m.u.",
-        "50 m.u."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
         0,
         1,
-        0,
         0,
         0
       ],
@@ -191,158 +91,6 @@
         "cis conformation.",
         "linked conformation.",
         "heteroduplex."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        0,
-        1,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "0024402f-dbe6-5f48-9dcc-2104a622b4b0",
-      "slug": "chapter_05_q011",
-      "text": "For a (fictitious) haploid fungus, the starting point in the biosynthesis of the amino acid arginine is Compound X, which is always present in and absorbed from the environment. The arginine biosynthetic pathway is:\n\nA mutant strain of genotype a{\\textendash} (lacking enzyme A) is crossed to a mutant strain of genotype c{\\textendash} (lacking enzyme C). What proportion of the progeny is expected to grow on medium supplemented with Compound Y?",
-      "choices": [
-        "$0\\%$",
-        "$25\\%$",
-        "$50\\%$",
-        "$75\\%$",
-        "$100\\%$"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "images": [
-        "assets/chapter_05_q011_1.png"
-      ],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "0b0f8a52-7c69-5edd-8742-8fb654704cfa",
-      "slug": "chapter_05_q028",
-      "text": "In Drosophila, the recessive alleles for brown and scarlet eyes (of two independent genes) interact so that b w / b w ; s t / s t is white. If a pure-breeding brown is crossed to a pure-breeding scarlet, what proportion of the F2 will be white?",
-      "choices": [
-        "1/16",
-        "1/4",
-        "7/16",
-        "3/4",
-        "13/16"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "4504c00b-e986-5583-8b1d-72486cdcc69a",
-      "slug": "chapter_13_q014",
-      "text": "The homeodomain encodes a(n)",
-      "choices": [
-        "helix-turn-helix motif.",
-        "ATP-binding domain.",
-        "leucine zipper.",
-        "zinc-finger.",
-        "protease."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "308154ca-4b53-5f19-9d80-625ece8ed785",
-      "slug": "chapter_13_q001",
-      "text": "A morphogen is a molecule that induces",
-      "choices": [
-        "cells to undergo cellular division.",
-        "cells to increase in size.",
-        "various responses in surrounding tissue in a non-concentration-dependent manner.",
-        "various responses in surrounding tissue in a concentration-dependent manner.",
-        "None of the answer options is correct."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        0,
-        0,
-        1,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "b60c24d5-222d-5438-8ba3-768e79a80abc",
-      "slug": "chapter_14_q016",
-      "text": "The \"proteome\" is defined as the\n",
-      "choices": [
-        "sequence and expression patterns of all transcripts.",
-        "sequence and expression of all proteins.",
-        "complete set of all physical interactions (i.e. protein/DNA or protein/protein).",
-        "complete set of all metabolites.",
-        "None of the answer options is correct."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "2e379a52-c9ad-59c7-a404-76dc8e4488d7",
-      "slug": "chapter_14_q012",
-      "text": "Genes that are related by gene-duplication events within the same genome are called",
-      "choices": [
-        "homologs.",
-        "orthologs.",
-        "paralogs.",
-        "heterologs.",
-        "alleles."
       ],
       "question_type": "single",
       "point_value": 1,
@@ -384,184 +132,9 @@
       "has_explanation": false
     },
     {
-      "qid": "84ba2658-5354-5401-8fec-bc7af85b695b",
-      "slug": "chapter_17_q007",
-      "text": "~In corn, R is a gene for red aleurone; its recessive allele r determines colorless aleurone. A cross is made between a diploid r/r female and a trisomic R/r/r male. If pollen grains with extra chromosomes are inviable, the ratio of red to colorless kernels expected in the progeny would be",
-      "choices": [
-        "1 red : 5 colorless.",
-        "1 red : 2 colorless.",
-        "1 red : 1 colorless.",
-        "2 red : 1 colorless.",
-        "5 red : 1 colorless."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "777f0de0-efd6-5812-a9b7-f61ea5980ac6",
-      "slug": "chapter_18_q022",
-      "text": "~A horticulturist plans to self a plant, then (individually) self each of the F1 plants, and repeat the same procedure until he obtains a plant that is heterozygous at no more than one gene. If the parental plant has 15,000 genes and is heterozygous for all of them, how many generations will this process take? (For the purposes of this question, count the parental plant as ''1 generation.'')",
-      "choices": [
-        "8 generations",
-        "15 generations",
-        "30 generations",
-        "15,000 generations",
-        "30,000 generations"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "d8bbde5b-c7b1-59c2-9444-5783b973446c",
-      "slug": "chapter_18_q031",
-      "text": "~For many generations, the following genotypic frequencies were observed in a large population of dinosaurs: 4\\% AA, 32\\% Aa, and 64\\% aa. The climate changed abruptly and resulted in the death of all homozygous recessive dinosaurs (s = 1). In the next generation, the recessive homozygotes died shortly after birth. What percentage of these newborn dinosaurs died?",
-      "choices": [
-        "4\\%",
-        "8.5\\%",
-        "19.7\\%",
-        "36.8\\%",
-        "44\\%"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        0,
-        1,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "bfdc3b91-f590-5d4a-9cd3-0da3493c70cc",
-      "slug": "chapter_19_q004",
-      "text": "~The mean weight in a population of fruit flies (Drosophila melanogaster) grown in identical conditions is 1.10 mg, and the standard deviation is 0.05. The heaviest fly in this population weighs 1.30 mg. The genetic deviation of this individual is",
-      "choices": [
-        "0.05 mg.",
-        "0.15 mg.",
-        "0.20 mg.",
-        "0.84 mg.",
-        "It is impossible to determine based on these data."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        0,
-        1,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "46b97382-7e8a-5e73-bfb1-610d3b104291",
-      "slug": "chapter_19_q019",
-      "text": "~Consider a diploid fish in which tail length is solely controlled by the additive action of two unlinked loci, F (f) and G (g), without any effect of the environment. A female of genotype F/F ; G/G, with a 3-cm-long tail, is crossed to a male of genotype f/f ; g/g, with a 2-cm-long tail. All the F1 fish have 2.5-cm-long tails.\n\nIf the F1 fish are crossed to each other, how many different tail length phenotypes will be present in F2?",
-      "choices": [
-        "16",
-        "5",
-        "4",
-        "3",
-        "2"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "f4ab762d-3ad7-5648-86b5-07b6d636b16f",
-      "slug": "chapter_20_q011",
-      "text": "~When considering the rate of nucleotide divergence for a particular gene over time, which of the following has been observed to be TRUE?",
-      "choices": [
-        "Nonsynonymous mutations will become established less frequently.",
-        "Adenine nucleotides are more readily mutated than other nucleotides.",
-        "Synonymous mutations will become established less frequently.",
-        "Nucleotide changes over time are impossible to measure.",
-        "Only noncoding sequences display change."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "51f65ce8-e0cc-5315-8d69-91ed08b82dea",
-      "slug": "chapter_20_q003",
-      "text": "~Which of the following are requirements for evolution by natural selection?\nI ~ ~ environmental change\nII ~ ~differential survival and reproduction\nIII ~ heritability of phenotypic variation\nIV ~ variation in phenotype\nV ~ ~sexual reproduction",
-      "choices": [
-        "II, III, V",
-        "II, III, IV",
-        "I, II, IV",
-        "III, IV, V",
-        "II, IV, V"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
       "qid": "80c3f886-b7b2-5800-8e4e-c4500b1dd676",
       "slug": "chapter_19_q010",
-      "text": "~Two different pure-breeding lines of tobacco were crossed, and their F1 showed a variance in flower length of 8.76. The total variance in flower length in the F2 was 40.96. The F1 and the F2 plants were bred, grown, and kept in identical environments.\n\nThe variance in flower length observed in the F1 generation is due to",
+      "text": "Two different pure-breeding lines of tobacco were crossed, and their F1 showed\na variance in flower length of 8.76. The total variance in flower length in the\nF2 was 40.96. The F1 and the F2 plants were bred, grown, and kept in identical environments.\n\nThe variance in flower length observed in the F1 generation is due to\n",
       "choices": [
         "changes in the environment between the parental and the F1 generation.",
         "differences in heritability for flower length between the parental and the F1 plants.",
@@ -584,84 +157,9 @@
       "has_explanation": false
     },
     {
-      "qid": "0533a694-398a-5a8f-a02d-9daf36d090c6",
-      "slug": "chapter_19_q013",
-      "text": "~The variance in tail length in a large population of genetically diverse mice is found to be 21.30. The broad-sense heritability for this trait in an identical population was found to be 0.8. Based on this information, what is the predicted genetic variance (Vg) for these mice?",
-      "choices": [
-        "4.26",
-        "17.04",
-        "20.50",
-        "21.30",
-        "26.62"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "643ad023-76c7-59a5-be01-2be41115f011",
-      "slug": "chapter_14_q018",
-      "text": "~Which of the following statements is/are TRUE about reverse genetics?",
-      "choices": [
-        "Reverse genetics analysis starts with an altered phenotype in an organism.",
-        "Reverse genetics analysis starts with a known DNA sequence, mRNA, or protein.",
-        "Reverse genetics can be performed by random mutagenesis, targeted mutagenesis, or by phenocopying.",
-        "Reverse genetics analysis starts with a known DNA sequence, mRNA, or protein, and it can be performed by random mutagenesis, targeted mutagenesis, or by phenocopying.",
-        "All of the answer options are correct."
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
-      "qid": "e874ecc5-8b7f-51b4-9808-6c3db4b3bf2f",
-      "slug": "chapter_03_q028",
-      "text": "~You are studying meiosis in fungi with an organism in which the haploid chromosome number is 5 (n = 5). You combine two haploid cells together (strain 1 by strain 2), and then activate meiosis to regenerate haploid cells. What are the odds that any individual haploid cell will have either the five chromosomes from strain 1 or the five chromosomes from strain 2?",
-      "choices": [
-        "1/64",
-        "1/2",
-        "1/16",
-        "1/32",
-        "1/8"
-      ],
-      "question_type": "single",
-      "point_value": 1,
-      "correct_onehot": [
-        0,
-        0,
-        1,
-        0,
-        0
-      ],
-      "images": [],
-      "image_captions": {},
-      "code_blocks": [],
-      "has_explanation": false
-    },
-    {
       "qid": "2c5ba7f2-bb33-50de-921f-38f198d4f021",
       "slug": "chapter_04_q013",
-      "text": "~In maize, two plants that are both heterozygous for the recessive alleles a and b are crossed. What frequency of double-mutant progeny will appear if a and b are 7.2 map units apart, and both parents carry a and b in repulsion (trans)?",
+      "text": "In maize, two plants that are both heterozygous for the recessive alleles a\nand b are crossed. What frequency of double-mutant progeny will appear if a and\nb are 7.2 map units apart, and both parents carry a and b in repulsion (trans)?\n",
       "choices": [
         "0.001296",
         "0.005184",
@@ -684,9 +182,234 @@
       "has_explanation": false
     },
     {
+      "qid": "777f0de0-efd6-5812-a9b7-f61ea5980ac6",
+      "slug": "chapter_18_q022",
+      "text": "A horticulturist plans to self a plant, then (individually) self each of the\nF1 plants, and repeat the same procedure until he obtains a plant that is heterozygous\nat no more than one gene. If the parental plant has 15,000 genes and is heterozygous\nfor all of them, how many generations will this process take? (For the purposes\nof this question, count the parental plant as ''1 generation.'')\n",
+      "choices": [
+        "8 generations",
+        "15 generations",
+        "30 generations",
+        "15,000 generations",
+        "30,000 generations"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "46b97382-7e8a-5e73-bfb1-610d3b104291",
+      "slug": "chapter_19_q019",
+      "text": "Consider a diploid fish in which tail length is solely controlled by the additive\naction of two unlinked loci, F (f) and G (g), without any effect of the environment.\nA female of genotype F/F ; G/G, with a 3-cm-long tail, is crossed to a male of genotype\nf/f ; g/g, with a 2-cm-long tail. All the F1 fish have 2.5-cm-long tails.\n\n\nIf the F1 fish are crossed to each other, how many different tail length phenotypes\nwill be present in F2?'\n",
+      "choices": [
+        "16",
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "4504c00b-e986-5583-8b1d-72486cdcc69a",
+      "slug": "chapter_13_q014",
+      "text": "The homeodomain encodes a(n)",
+      "choices": [
+        "helix-turn-helix motif.",
+        "ATP-binding domain.",
+        "leucine zipper.",
+        "zinc-finger.",
+        "protease."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "84ba2658-5354-5401-8fec-bc7af85b695b",
+      "slug": "chapter_17_q007",
+      "text": "In corn, R is a gene for red aleurone; its recessive allele r determines colorless\naleurone. A cross is made between a diploid r/r female and a trisomic R/r/r male.\nIf pollen grains with extra chromosomes are inviable, the ratio of red to colorless\nkernels expected in the progeny would be\n",
+      "choices": [
+        "1 red : 5 colorless.",
+        "1 red : 2 colorless.",
+        "1 red : 1 colorless.",
+        "2 red : 1 colorless.",
+        "5 red : 1 colorless."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "e874ecc5-8b7f-51b4-9808-6c3db4b3bf2f",
+      "slug": "chapter_03_q028",
+      "text": "You are studying meiosis in fungi with an organism in which the haploid chromosome\nnumber is 5 (n = 5). You combine two haploid cells together (strain 1 by strain\n2), and then activate meiosis to regenerate haploid cells. What are the odds that\nany individual haploid cell will have either the five chromosomes from strain 1\nor the five chromosomes from strain 2?\n",
+      "choices": [
+        "1/64",
+        "1/2",
+        "1/16",
+        "1/32",
+        "1/8"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "ee091f19-de40-564a-9a50-b82297902469",
+      "slug": "chapter_03_q009",
+      "text": "Mendel's Y/y ; R/r dihybrid pea plants were the F1 of the cross between a double homozygous dominant and a double homozygous recessive. If we testcrossed these dihybrids, what proportion of the offspring would be recombinant and phenotypically resemble the F1 dihybrid?",
+      "choices": [
+        "$0\\%$",
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$100\\%$"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "d8bbde5b-c7b1-59c2-9444-5783b973446c",
+      "slug": "chapter_18_q031",
+      "text": "For many generations, the following genotypic frequencies were observed in\na large population of dinosaurs: 4\\% AA, 32\\% Aa, and 64\\% aa. The climate changed\nabruptly and resulted in the death of all homozygous recessive dinosaurs (s = 1).\nIn the next generation, the recessive homozygotes died shortly after birth. What\npercentage of these newborn dinosaurs died?\n",
+      "choices": [
+        "$4\\%$",
+        "$8.5\\%$",
+        "$19.7\\%$",
+        "$36.8\\%$",
+        "$44\\%$"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "51f65ce8-e0cc-5315-8d69-91ed08b82dea",
+      "slug": "chapter_20_q003",
+      "text": "Which of the following are requirements for evolution by natural selection?\n\nI: environmental change \\\\\n\nII: differential survival and reproduction \\\\\n\nIII: heritability of phenotypic variation \\\\\n\nIV: variation in phenotype \\\\\n\nV: sexual reproduction \\\\\n",
+      "choices": [
+        "II, III, V",
+        "II, III, IV",
+        "I, II, IV",
+        "III, IV, V",
+        "II, IV, V"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "f4ab762d-3ad7-5648-86b5-07b6d636b16f",
+      "slug": "chapter_20_q011",
+      "text": "When considering the rate of nucleotide divergence for a particular gene over\ntime, which of the following has been observed to be TRUE?\n",
+      "choices": [
+        "Nonsynonymous mutations will become established less frequently.",
+        "Adenine nucleotides are more readily mutated than other nucleotides.",
+        "Synonymous mutations will become established less frequently.",
+        "Nucleotide changes over time are impossible to measure.",
+        "Only noncoding sequences display change."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
       "qid": "e8fac0e6-a49d-587b-a11f-f41559ce1bc2",
       "slug": "chapter_20_q016",
-      "text": "~The fitness advantage of the AS allelic combination can be calculated by",
+      "text": "The fitness advantage of the AS allelic combination can be calculated by",
       "choices": [
         "measuring O2-carrying capacity in the blood of AS individuals.",
         "comparing the actual frequency of AS to the frequency predicted by the Hardy{\\textendash}Weinberg equation.",
@@ -709,15 +432,117 @@
       "has_explanation": false
     },
     {
-      "qid": "775a683a-c354-567a-ac27-81274f3b0ab8",
-      "slug": "chapter_14_q003",
-      "text": "~The strategy for obtaining a genomic sequence can be divided into four steps: (1) overlap contigs for complete sequence, (2) sequence each fragment, (3) cut many genome copies into random fragments, and (4) overlap sequence reads. What is the order of the four steps?",
+      "qid": "9f614032-bd6d-5682-b02b-0196619364bf",
+      "slug": "chapter_02_q061",
+      "text": "What is the phenotypic ratio of a cross between heterozygous dominant and wild-type parents?",
       "choices": [
-        "1, 2, 3, and 4",
-        "4, 3, 2, and 1",
-        "3, 2, 4, and 1",
-        "3, 2, 1, and 4",
-        "2, 4, 3, and 1"
+        "1:1",
+        "2:1",
+        "3:1",
+        "1:4",
+        "1:2"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "0024402f-dbe6-5f48-9dcc-2104a622b4b0",
+      "slug": "chapter_05_q011",
+      "text": "For a (fictitious) haploid fungus, the starting point in the biosynthesis of the amino acid arginine is Compound X, which is always present in and absorbed from the environment. The arginine biosynthetic pathway is:\n\nA mutant strain of genotype a{\\textendash} (lacking enzyme A) is crossed to a mutant strain of genotype c{\\textendash} (lacking enzyme C). What proportion of the progeny is expected to grow on medium supplemented with Compound Y?",
+      "choices": [
+        "$0\\%$",
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$100\\%$"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [
+        "assets/chapter_05_q011_1.png"
+      ],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "0533a694-398a-5a8f-a02d-9daf36d090c6",
+      "slug": "chapter_19_q013",
+      "text": "The variance in tail length in a large population of genetically diverse mice\nis found to be 21.30. The broad-sense heritability for this trait in an identical\npopulation was found to be 0.8. Based on this information, what is the predicted\ngenetic variance (Vg) for these mice?\n",
+      "choices": [
+        "4.26",
+        "17.04",
+        "20.50",
+        "21.30",
+        "26.62"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "4ca008b6-1c27-5ca6-bdb5-5949a19d1102",
+      "slug": "chapter_04_q031",
+      "text": "In a linear tetrad analysis, the second division segregation (MII) frequency of the cyh locus is 16$\\%$. The map distance from this locus to its centromere is",
+      "choices": [
+        "4 m.u.",
+        "8 m.u.",
+        "16 m.u.",
+        "32 m.u.",
+        "50 m.u."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "bfdc3b91-f590-5d4a-9cd3-0da3493c70cc",
+      "slug": "chapter_19_q004",
+      "text": "The mean weight in a population of fruit flies (Drosophila melanogaster) grown\nin identical conditions is 1.10 mg, and the standard deviation is 0.05. The heaviest\nfly in this population weighs 1.30 mg. The genetic deviation of this individual\nis\n",
+      "choices": [
+        "0.05 mg.",
+        "0.15 mg.",
+        "0.20 mg.",
+        "0.84 mg.",
+        "It is impossible to determine based on these data."
       ],
       "question_type": "single",
       "point_value": 1,
@@ -736,7 +561,7 @@
     {
       "qid": "0b219a74-b9b7-5b0c-9c49-3d7d73fba9b5",
       "slug": "chapter_14_q013",
-      "text": "~The principle of parsimony refers to",
+      "text": "The principle of parsimony refers to",
       "choices": [
         "the most complicated explanation involving the smallest number of evolutionary changes.",
         "the most complicated explanation involving the largest number of evolutionary changes.",
@@ -752,6 +577,181 @@
         1,
         0,
         0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "b60c24d5-222d-5438-8ba3-768e79a80abc",
+      "slug": "chapter_14_q016",
+      "text": "The \"proteome\" is defined as the\n",
+      "choices": [
+        "sequence and expression patterns of all transcripts.",
+        "sequence and expression of all proteins.",
+        "complete set of all physical interactions (i.e. protein/DNA or protein/protein).",
+        "complete set of all metabolites.",
+        "None of the answer options is correct."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "e3b9f2e7-5027-55bd-a36b-8da4d96fad63",
+      "slug": "chapter_01_q002",
+      "text": "A sample of normal double-stranded DNA was found to have a guanine content of 18\\%. What is the expected proportion of adenine?",
+      "choices": [
+        "9\\%",
+        "32\\%",
+        "36\\%",
+        "68\\%",
+        "82\\%"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "0b0f8a52-7c69-5edd-8742-8fb654704cfa",
+      "slug": "chapter_05_q028",
+      "text": "In Drosophila, the recessive alleles for brown and scarlet eyes (of two independent genes) interact so that b w / b w ; s t / s t is white. If a pure-breeding brown is crossed to a pure-breeding scarlet, what proportion of the F2 will be white?",
+      "choices": [
+        "1/16",
+        "1/4",
+        "7/16",
+        "3/4",
+        "13/16"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "4deafb2b-11c0-5cb4-9aaf-4a9e0a75734f",
+      "slug": "chapter_01_q011",
+      "text": "Which of the following features makes a species suitable as a model organism?",
+      "choices": [
+        "small organism",
+        "short generation time",
+        "small genome",
+        "produce large number of offspring",
+        "All of the answer options are correct."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "308154ca-4b53-5f19-9d80-625ece8ed785",
+      "slug": "chapter_13_q001",
+      "text": "A morphogen is a molecule that induces",
+      "choices": [
+        "cells to undergo cellular division.",
+        "cells to increase in size.",
+        "various responses in surrounding tissue in a non-concentration-dependent manner.",
+        "various responses in surrounding tissue in a concentration-dependent manner.",
+        "None of the answer options is correct."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "2e379a52-c9ad-59c7-a404-76dc8e4488d7",
+      "slug": "chapter_14_q012",
+      "text": "Genes that are related by gene-duplication events within the same genome are called",
+      "choices": [
+        "homologs.",
+        "orthologs.",
+        "paralogs.",
+        "heterologs.",
+        "alleles."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "f1d58bf5-041c-5270-b759-11e6f47c4a23",
+      "slug": "chapter_03_q012",
+      "text": "In hogs, a dominant allele B results in a white belt around the body. At a separate locus, the dominant allele S causes fusion of the two parts of the normally cloven hoof resulting in a condition known as syndactyly. A belted syndactylous sow was crossed to an unbelted cloven-hoofed boar, and in the litter there were:  The genotypes of the parents can best be represented as which of the following?  25$\\%$ belted syndactylous  25$\\%$ belted cloven  25$\\%$ unbelted syndactylous  25$\\%$ unbelted cloven",
+      "choices": [
+        "B/B ; S/S $\\times$ b/b ; s/s",
+        "B/b ; S/s $\\times$ b/b ; S/S",
+        "B/b ; S/s $\\times$ B/B ; s/s",
+        "b/b ; S/s $\\times$ B/b ; s/s",
+        "B/b ; S/s $\\times$ b/b ; s/s"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        0,
+        1
       ],
       "images": [],
       "image_captions": {},
