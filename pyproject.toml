@@ -10,7 +10,8 @@ requires-python = ">=3.11"
 dependencies = [
     "matplotlib",
     "numpy",
-    "seaborn", "shinylive>=0.8.6,<0.9",
+    "seaborn", 
+    "shinylive>=0.8.6,<0.9",
 ]
 
 [build-system]

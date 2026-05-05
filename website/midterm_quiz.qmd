@@ -13,7 +13,7 @@ filters:
 from mcqpy_shiny.embed_app import create_app
 
 app = create_app(
-    fixed_url="https://raw.githubusercontent.com/au-mbg/molecular_genetics/refs/heads/master/web_quiz/quiz.json",
+    fixed_url="https://raw.githubusercontent.com/au-mbg/molecular_genetics/refs/heads/master/web_quiz/quiz_1/quiz.json",
     fixed_token=None,
     allow_manual_load=True,
     title='',
