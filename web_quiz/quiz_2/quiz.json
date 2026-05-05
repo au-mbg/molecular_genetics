@@ -9,7 +9,7 @@
     {
       "qid": "4deafb2b-11c0-5cb4-9aaf-4a9e0a75734f",
       "slug": "chapter_01_q011",
-      "text": "~Which of the following features makes a species suitable as a model organism?",
+      "text": "Which of the following features makes a species suitable as a model organism?",
       "choices": [
         "small organism",
         "short generation time",
@@ -34,7 +34,7 @@
     {
       "qid": "e3b9f2e7-5027-55bd-a36b-8da4d96fad63",
       "slug": "chapter_01_q002",
-      "text": "~A sample of normal double-stranded DNA was found to have a guanine content of 18\\%. What is the expected proportion of adenine?",
+      "text": "A sample of normal double-stranded DNA was found to have a guanine content of 18\\%. What is the expected proportion of adenine?",
       "choices": [
         "9\\%",
         "32\\%",
@@ -59,7 +59,7 @@
     {
       "qid": "9f614032-bd6d-5682-b02b-0196619364bf",
       "slug": "chapter_02_q061",
-      "text": "~What is the phenotypic ratio of a cross between heterozygous dominant and wild-type parents?",
+      "text": "What is the phenotypic ratio of a cross between heterozygous dominant and wild-type parents?",
       "choices": [
         "1:1",
         "2:1",
@@ -84,13 +84,13 @@
     {
       "qid": "1fbc6b33-9d25-5bd2-8158-3ea8a2c4a5da",
       "slug": "chapter_02_q022",
-      "text": "~You have three jars of gumballs. The first jar has 100 white gumballs and 25 green, the second jar has 50 white and 150 blue, and the third jar contains 500 white and 10 red.\n\nIf you randomly draw one gumball from each jar, what is the probability for ALL WHITE GUMBALLS?",
+      "text": "You have three jars of gumballs. The first jar has 100 white gumballs and 25 green, the second jar has 50 white and 150 blue, and the third jar contains 500 white and 10 red.\n\nIf you randomly draw one gumball from each jar, what is the probability for ALL WHITE GUMBALLS?",
       "choices": [
-        "0.196, or 19.6\\%",
-        "0.109, or 10.9\\%",
-        "0.056, or 5.6\\%",
-        "0.567, or 56.7\\%",
-        "This is impossible (0\\% chance)."
+        "0.196, or 19.6$\\%$",
+        "0.109, or 10.9$\\%$",
+        "0.056, or 5.6$\\%$",
+        "0.567, or 56.7$\\%$",
+        "This is impossible (0$\\%$ chance)."
       ],
       "question_type": "single",
       "point_value": 1,
@@ -109,13 +109,13 @@
     {
       "qid": "ee091f19-de40-564a-9a50-b82297902469",
       "slug": "chapter_03_q009",
-      "text": "~Mendel's Y/y ; R/r dihybrid pea plants were the F1 of the cross between a double homozygous dominant and a double homozygous recessive. If we testcrossed these dihybrids, what proportion of the offspring would be recombinant and phenotypically resemble the F1 dihybrid?",
+      "text": "Mendel's Y/y ; R/r dihybrid pea plants were the F1 of the cross between a double homozygous dominant and a double homozygous recessive. If we testcrossed these dihybrids, what proportion of the offspring would be recombinant and phenotypically resemble the F1 dihybrid?",
       "choices": [
-        "0\\%",
-        "25\\%",
-        "50\\%",
-        "75\\%",
-        "100\\%"
+        "$0\\%$",
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$100\\%$"
       ],
       "question_type": "single",
       "point_value": 1,
@@ -134,13 +134,13 @@
     {
       "qid": "f1d58bf5-041c-5270-b759-11e6f47c4a23",
       "slug": "chapter_03_q012",
-      "text": "~In hogs, a dominant allele B results in a white belt around the body. At a separate locus, the dominant allele S causes fusion of the two parts of the normally cloven hoof resulting in a condition known as syndactyly. A belted syndactylous sow was crossed to an unbelted cloven-hoofed boar, and in the litter there were:  The genotypes of the parents can best be represented as which of the following?  25\\% belted syndactylous  25\\% belted cloven  25\\% unbelted syndactylous  25\\% unbelted cloven",
+      "text": "In hogs, a dominant allele B results in a white belt around the body. At a separate locus, the dominant allele S causes fusion of the two parts of the normally cloven hoof resulting in a condition known as syndactyly. A belted syndactylous sow was crossed to an unbelted cloven-hoofed boar, and in the litter there were:  The genotypes of the parents can best be represented as which of the following?  25$\\%$ belted syndactylous  25$\\%$ belted cloven  25$\\%$ unbelted syndactylous  25$\\%$ unbelted cloven",
       "choices": [
-        "B/B ; S/S {\\texttimes} b/b ; s/s",
-        "B/b ; S/s {\\texttimes} b/b ; S/S",
-        "B/b ; S/s {\\texttimes} B/B ; s/s",
-        "b/b ; S/s {\\texttimes} B/b ; s/s",
-        "B/b ; S/s {\\texttimes} b/b ; s/s"
+        "B/B ; S/S $\\times$ b/b ; s/s",
+        "B/b ; S/s $\\times$ b/b ; S/S",
+        "B/b ; S/s $\\times$ B/B ; s/s",
+        "b/b ; S/s $\\times$ B/b ; s/s",
+        "B/b ; S/s $\\times$ b/b ; s/s"
       ],
       "question_type": "single",
       "point_value": 1,
@@ -159,7 +159,7 @@
     {
       "qid": "4ca008b6-1c27-5ca6-bdb5-5949a19d1102",
       "slug": "chapter_04_q031",
-      "text": "~In a linear tetrad analysis, the second division segregation (MII) frequency of the cyh locus is 16\\%. The map distance from this locus to its centromere is",
+      "text": "In a linear tetrad analysis, the second division segregation (MII) frequency of the cyh locus is 16$\\%$. The map distance from this locus to its centromere is",
       "choices": [
         "4 m.u.",
         "8 m.u.",
@@ -184,7 +184,7 @@
     {
       "qid": "3efd55c5-b8e3-55a1-af06-5ad23fcefad3",
       "slug": "chapter_04_q051",
-      "text": "~When two dominant, or wild-type, alleles are present on the same homolog, the arrangement is called a",
+      "text": "When two dominant, or wild-type, alleles are present on the same homolog, the arrangement is called a",
       "choices": [
         "chiasma.",
         "trans conformation.",
@@ -209,13 +209,13 @@
     {
       "qid": "0024402f-dbe6-5f48-9dcc-2104a622b4b0",
       "slug": "chapter_05_q011",
-      "text": "~For a (fictitious) haploid fungus, the starting point in the biosynthesis of the amino acid arginine is Compound X, which is always present in and absorbed from the environment. The arginine biosynthetic pathway is:\n\nA mutant strain of genotype a{\\textendash} (lacking enzyme A) is crossed to a mutant strain of genotype c{\\textendash} (lacking enzyme C). What proportion of the progeny is expected to grow on medium supplemented with Compound Y?",
+      "text": "For a (fictitious) haploid fungus, the starting point in the biosynthesis of the amino acid arginine is Compound X, which is always present in and absorbed from the environment. The arginine biosynthetic pathway is:\n\nA mutant strain of genotype a{\\textendash} (lacking enzyme A) is crossed to a mutant strain of genotype c{\\textendash} (lacking enzyme C). What proportion of the progeny is expected to grow on medium supplemented with Compound Y?",
       "choices": [
-        "0\\%",
-        "25\\%",
-        "50\\%",
-        "75\\%",
-        "100\\%"
+        "$0\\%$",
+        "$25\\%$",
+        "$50\\%$",
+        "$75\\%$",
+        "$100\\%$"
       ],
       "question_type": "single",
       "point_value": 1,
@@ -236,7 +236,7 @@
     {
       "qid": "0b0f8a52-7c69-5edd-8742-8fb654704cfa",
       "slug": "chapter_05_q028",
-      "text": "~In Drosophila, the recessive alleles for brown and scarlet eyes (of two independent genes) interact so that b w / b w ; s t / s t is white. If a pure-breeding brown is crossed to a pure-breeding scarlet, what proportion of the F2 will be white?",
+      "text": "In Drosophila, the recessive alleles for brown and scarlet eyes (of two independent genes) interact so that b w / b w ; s t / s t is white. If a pure-breeding brown is crossed to a pure-breeding scarlet, what proportion of the F2 will be white?",
       "choices": [
         "1/16",
         "1/4",
@@ -261,7 +261,7 @@
     {
       "qid": "4504c00b-e986-5583-8b1d-72486cdcc69a",
       "slug": "chapter_13_q014",
-      "text": "~The homeodomain encodes a(n)",
+      "text": "The homeodomain encodes a(n)",
       "choices": [
         "helix-turn-helix motif.",
         "ATP-binding domain.",
@@ -286,7 +286,7 @@
     {
       "qid": "308154ca-4b53-5f19-9d80-625ece8ed785",
       "slug": "chapter_13_q001",
-      "text": "~A morphogen is a molecule that induces",
+      "text": "A morphogen is a molecule that induces",
       "choices": [
         "cells to undergo cellular division.",
         "cells to increase in size.",
@@ -311,7 +311,7 @@
     {
       "qid": "b60c24d5-222d-5438-8ba3-768e79a80abc",
       "slug": "chapter_14_q016",
-      "text": "~The ''proteome'' is defined as the",
+      "text": "The \"proteome\" is defined as the\n",
       "choices": [
         "sequence and expression patterns of all transcripts.",
         "sequence and expression of all proteins.",
@@ -336,7 +336,7 @@
     {
       "qid": "2e379a52-c9ad-59c7-a404-76dc8e4488d7",
       "slug": "chapter_14_q012",
-      "text": "~Genes that are related by gene-duplication events within the same genome are called",
+      "text": "Genes that are related by gene-duplication events within the same genome are called",
       "choices": [
         "homologs.",
         "orthologs.",
@@ -361,7 +361,7 @@
     {
       "qid": "292852a7-8ba0-54ba-9e79-7054b399a3b9",
       "slug": "chapter_17_q031",
-      "text": "~In yeast, the gene phe1 is on chromosome 3 and lys4 is on chromosome 7. The progeny (spores) from the cross + ; + {\\texttimes} phe1 ; lys4 were  This result suggests that:  47\\% +~;~+ 44\\% phe1~;~lys4 4\\% phe1~;~+ 5\\% + ; lys4",
+      "text": "In yeast, the gene phe1 is on chromosome 3 and lys4 is on chromosome 7. The\nprogeny (spores) from the cross + ; + {\\texttimes} phe1 ; lys4 were \\\\\n\n$$\n\\begin{aligned}\n47\\% \\quad \\quad &+;+ \\\\\n44\\% \\quad \\quad &\\mathrm{phe1};\\mathrm{lys4} \\\\\n4\\% \\quad \\quad &\\mathrm{phe1};+  \\\\\n5\\% \\quad \\quad &+ ; \\mathrm{lys4} \\\\\n\\end{aligned}\n$$\n\nThis result suggests that:\n",
       "choices": [
         "a nondisjunction occurred.",
         "one parent has a deletion.",
