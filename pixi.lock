@@ -625,7 +625,7 @@ packages:
 - pypi: ./
   name: au-molecular-genetics
   version: 0.1.0
-  sha256: 1ffc5f17b95fde924b7c6fc9eebe7a22f7f4e52ff2a89d77bef81377019bb9a4
+  sha256: d631ddfb24e4e7bacb7ced7073c7b39e6a1c1d4eff3572a5e2688aa55fe93db6
   requires_dist:
   - matplotlib
   - numpy
