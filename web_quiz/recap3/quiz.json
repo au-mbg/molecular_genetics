@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "title": "Molekylær Genetik / Recap 3",
+    "description": null,
+    "source": "recap_3.yaml"
+  },
+  "questions": [
+    {
+      "qid": "85f324a6-72b8-57bd-8501-a77d4083d864",
+      "slug": "chapter2_04",
+      "text": "Which gene results in human maleness, and where is it located?",
+      "choices": [
+        "the SRY gene, located the  pseudoautosomal  region 1 of the Y chromosome",
+        "a combination of multiple X-linked genes, found in the  pseudoautosomal  region of the X chromosome",
+        "the Y chromosome, , found in the  pseudoautosomal  region of the Y chromosome",
+        "the SRY gene, located in the differential region of the Y chromosome"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "19495511-a8e5-5f9c-87a6-ea0dd2ebfe8f",
+      "slug": "chapter_1_3",
+      "text": "Model organisms are a small group of organisms\nchosen for genetic research. Model organisms must\nmeet all of the following requirements, $\\_\\_\\_\\_\\_\\_$.\n",
+      "choices": [
+        "Having a small genome",
+        "Being easy and cheap to maintain",
+        "Having a short reproductive cycle",
+        "Being rare and unique"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "431b2d2d-cad4-5101-8eec-d8e120aec9c9",
+      "slug": "chapter2_08",
+      "text": "An individual with a dominant phenotype (E/?) crossed with a recessive tester strain (e/e) resulted in a 1:1 ratio of E/e to e/e progeny. What is the genotype of the E/? individual?",
+      "choices": [
+        "To determine the genotype, we would need additional experimental analysis.",
+        "The genotype of the parent is E/e.",
+        "The genotype of the parent is E/E.",
+        "The genotype cannot be determined by the test."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "1ae82edd-fe2a-5bf9-bd5f-340474ba48a9",
+      "slug": "chapter5_01",
+      "text": "A researcher is studying a gene of interest,  H , in rabbits. She has characterized the wild-type allele for  H , as well as all of its known mutant alleles. The researcher has identified the \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ for  H .",
+      "choices": [
+        "heterokaryons",
+        "allelic series",
+        "penetrance",
+        "pleiotropics",
+        "None of these"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "22d4357b-663e-56ee-b93b-c7ae6cf4c93f",
+      "slug": "week16_question_13",
+      "text": "A gene for a disorder that mostly affects males but is not transmitted from father to son is  most likely on:",
+      "choices": [
+        "either the X or Y chromosome.",
+        "an autosome.",
+        "the X chromosome.",
+        "the Y chromosome."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "4bdaf417-c054-54fd-a2b7-effe4b7ce263",
+      "slug": "chapter3_2_01",
+      "text": "\\_\\_\\_\\_\\_ are regions of the genome that have hereditary traits with continuous variation.",
+      "choices": [
+        "Alleles",
+        "Genes",
+        "Chromosomes",
+        "Quantitative trait loci"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "0aec54cb-20df-5a0b-a8c9-560cd58154f8",
+      "slug": "week16_question_14",
+      "text": "Most \\_\\_\\_\\_\\_\\_ inherited from the female because the \\_\\_\\_\\_\\_\\_ contributes the bulk of the  cytoplasm, whereas the \\_\\_\\_\\_\\_\\_ contributes essentially none.",
+      "choices": [
+        "nuclear DNA is; sperm; egg",
+        "organelles are; egg; sperm",
+        "nuclear DNA is; egg; sperm",
+        "organelles are; sperm; egg"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "0e78e75c-7305-51b3-89c7-3693303365c5",
+      "slug": "chapter5_05",
+      "text": "A temperature-sensitive allele",
+      "choices": [
+        "is very difficult to maintain in a stock of model organisms, regardless of the temperature at which these organisms are housed.",
+        "is expressed at both the permissive and restrictive temperatures.",
+        "never encodes a protein (and would be synonymous with a null allele).",
+        "is only available for diploid organisms and has not been demonstrated in haploid organisms.",
+        "is expressed at the permissive temperature but not at the restrictive temperature."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "db1c4777-9332-5ce5-8424-b55eca4cc1d3",
+      "slug": "chapter_1_2",
+      "text": "A trio is defined as:\n",
+      "choices": [
+        "A family group of a mother, a father, and their child.",
+        "The three types of opsins.",
+        "A combination of transmission genetics, molecular-developmental genetics, and population-evolutionary genetics",
+        "A sequence of three nucleotides that form a unit of genetic code in DNA or RNA"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "3666fdeb-72fb-5499-927f-0332b2a48919",
+      "slug": "week16_question_12",
+      "text": "Phenotypically normal parents produce an offspring with an autosomal recessive disorder.  What are the genotypes of the parents with respect to the allele (",
+      "choices": [
+        "for the disorder?",
+        "mother: A/A; father: A/A",
+        "mother: A/A; father: A/a",
+        "mother: A/a; father: A/a",
+        "mother: a/a; father: a/a"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "0b989c21-7c6d-593e-9216-66ae0185a788",
+      "slug": "chapter4_2_03",
+      "text": "A linkage group contains loci A, B, and C. We calculate the Likelihood for each possible order and observe the following values:  lnL (ABC) = -128.4,  lnL (ACB) = -142.7, and  lnL (CAB) = -120.1. What is the most likely order for these loci?",
+      "choices": [
+        "ACB",
+        "CAB",
+        "You cannot calculate the order of the loci given the Likelihood values.",
+        "ABC"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "ae7682f6-cd79-542e-a14c-f09f3a707bd9",
+      "slug": "chapter2_15",
+      "text": "Plants from two pure lines, one with purple flowers (P/P) and the other with white flowers (p/p), are crossed. The resulting F1 generation has only purple flowers. When these F1 plants are  selfed , what is the ratio of flower  color  genotypes in the progeny?",
+      "choices": [
+        "1:1",
+        "1:2:1",
+        "3:1",
+        "2:1"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "ca7770ab-4327-5206-af25-7bce1e1457c9",
+      "slug": "week16_question_21",
+      "text": "A researcher is studying a pedigree of a family afflicted by an unknown disease. He notices  that every generation depicted in the pedigree demonstrates at least one afflicted individual.  Furthermore, both males and females in the pedigree can demonstrate this disease, and both  sexes can pass this disease to progeny (either daughters or sons). The researcher is most likely  studying a(n)",
+      "choices": [
+        "autosomal recessive disorder.",
+        "autosomal dominant disorder.",
+        "X-linked recessive disorder.",
+        "Y-linked recessive disorder.",
+        "X-linked dominant disorder."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "21768428-3b61-5722-88f4-4a052f480809",
+      "slug": "chapter4_1_04",
+      "text": "Three-point (and higher) testcrosses enable geneticists to evaluate \\_\\_\\_\\_\\_ between three (or more) genes and to determine \\_\\_\\_\\_\\_ in one cross.",
+      "choices": [
+        "linkage; trans confirmation",
+        "mutations; gene order",
+        "mutations; trans confirmation",
+        "linkage; gene order"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "c2b31034-863d-51ef-9aa9-b16158002683",
+      "slug": "chapter2_03",
+      "text": "An allele with a mutation that renders it completely nonfunctional (i.e., it cannot produce a functional protein) is called a \\_\\_\\_\\_\\_ allele.",
+      "choices": [
+        "leaky",
+        "mutant",
+        "null",
+        "wild-type"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "5277e870-2baa-5c96-a678-2910c265bff3",
+      "slug": "chapter4_1_01",
+      "text": "What does it mean when two genes are linked?",
+      "choices": [
+        "The two genes are on different sex chromosomes.",
+        "The two genes follow Mendel\\'s law of independent assortment.",
+        "The two genes are on different autosomes.",
+        "The two genes are on the same chromosome."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "92fcb866-7f2b-5938-a9ab-13f8c9817045",
+      "slug": "week16_question_8",
+      "text": "A family tree or pedigree can be used to show the inheritance of mutant genes. Which of these  is true regarding a pedigree?",
+      "choices": [
+        "Squares are females and circles are males.",
+        "Vertical lines connect a mating pair.",
+        "Horizontal lines connect a mating pair to their offspring.",
+        "Filled squares or circles indicate an affected individual."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "f56948f0-951b-573a-87c3-cb2d815026cd",
+      "slug": "week16_question_5",
+      "text": "A mother who is heteroplasmic (i.e., whose cells demonstrate different proportions of mutant and  normal mitochondri",
+      "choices": [
+        "demonstrates a mitochondrial disease phenotype.",
+        "twins.",
+        "Both twins are certain to express (present) the disease phenotype to identical degrees.",
+        "Both twins are certain to express (present) the disease phenotype, but to varying degrees.",
+        "The twin phenotypes with respect to this mitochondrial disease will depend, in part, on the",
+        "The disease phenotype may manifest in one twin yet not in the other, or the disease may"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "10302918-e81f-5000-9519-00c201351096",
+      "slug": "week16_question_7",
+      "text": "Polymorphisms are two or more common phenotypes in a population. Which of these are  examples of human polymorphisms?",
+      "choices": [
+        "Huntington disease versus pseudoachondroplasia",
+        "Normal vision versus red-green color blindness",
+        "Blue versus brown eye color",
+        "Polydactyly versus 10 fingers and toes"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "e6daed3c-4017-52c8-b32f-31293eb9152b",
+      "slug": "chapter2_14",
+      "text": "You have a stock of short-winged flies, but you are unsure whether this is a pure line. You know from previous work that short wing (S) is dominant to long wing (s). You also know that your long-winged flies are homozygous. What phenotypic ratio of progeny from a cross of short-winged flies with long-winged flies would you expect if your short-winged fly stock is heterozygous?",
+      "choices": [
+        "all short wings",
+        "3:1 short to long wings",
+        "1:1 short to long wings",
+        "3:1 long to short wings"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    }
+  ]
+}

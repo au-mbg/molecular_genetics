@@ -1,0 +1,480 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "title": "Molekylær Genetik / Recap 2",
+    "description": null,
+    "source": "recap_2.yaml"
+  },
+  "questions": [
+    {
+      "qid": "c2ddaf05-1f58-58c1-961b-25ef00570e0b",
+      "slug": "week16_question_18",
+      "text": "A scientist is very interested in the SRY gene in humans, which is involved\nin male sex  determination and which is never found on X chromosomes (i.e., this\ngene occurs in the  \"differential\" region of the Y chromosome). SRY\nis an example of a \\_\\_\\_\\_\\_\\_\\_ gene.\"\n",
+      "choices": [
+        "heterozygous",
+        "homozygous",
+        "hemizygous",
+        "leaky",
+        "null"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "9aaaeae2-1d30-5a9e-95f3-26dc8baac6b4",
+      "slug": "chapter3_2_09",
+      "text": "Wei crosses a variegated (female) four-o\\'clock with a green (male) pollen. What type(s) of plants will result from this cross?",
+      "choices": [
+        "green and white",
+        "white and variegated",
+        "variegated, green, and white",
+        "green and variegated"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "03ea2e35-b9eb-5491-86e5-42ebea262c0e",
+      "slug": "chapter3_2_03",
+      "text": "In some traits, such as \\_\\_\\_\\_\\_, phenotypes do not fall into distinct categories but are often heavily influenced by multiple genes collectively called \\_\\_\\_\\_\\_.",
+      "choices": [
+        "height; polygenes",
+        "flower  color ; polygenes",
+        "pea texture; independent assortment",
+        "fur pattern; independent assortment"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "17d8ace6-ec64-5072-a4fc-3b110b781a8e",
+      "slug": "chapter2_02",
+      "text": "The process by which somatic cells divide to increase their number is called:",
+      "choices": [
+        "heterozygous.",
+        "mitosis.",
+        "meiosis.",
+        "homozygous."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "d7f92b96-2d0d-59dc-9c5f-2aa8ad9ee1b7",
+      "slug": "chapter3_1_05",
+      "text": "The chi-square test is used to test the hypothesis--it is by chance and chance alone that the observed ratios fit the expected ratios from monohybrid and dihybrid crosses. When we apply this test, we should keep these notes in mind, except that:",
+      "choices": [
+        "the probability (p) value from the test is the probability of observing a deviation from the expected results at least as large on the basis of chance if the hypothesis is correct.",
+        "the probability value p $>$ 0.05 means the hypothesis is true; whereas the probability value p $<$ 0.05 means the hypothesis is not true.",
+        "the probability value p $>$ 0.05 means that the results are compatible with that hypothesis.",
+        "the probability value p $<$ 0.05 means that the hypothesis has to be rejected."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "9ae9258e-6401-534c-9bf1-5db4c7bba0dd",
+      "slug": "chapter2_05",
+      "text": "A disease that was made famous with its effects on the royal family was  hemophilia . Although it was passed on through all family members, the effects were seen only in male members. What type of trait is  hemophilia ?",
+      "choices": [
+        "Y-linked dominant",
+        "X-linked dominant",
+        "Y-linked recessive",
+        "X-linked recessive"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "bf915991-5d01-597b-8b88-d309fab75ef4",
+      "slug": "chapter4_1_03",
+      "text": "During meiosis, \\_\\_\\_\\_\\_ may either cross over by chance, producing recombinants, or not cross over at all, resulting in no recombinants being produced.",
+      "choices": [
+        "nonsister  chromatids",
+        "sister chromatids",
+        "polygenes",
+        "loci"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "141e8e77-ea7c-58e2-b2d3-78cf8b25462f",
+      "slug": "chapter4_2_02",
+      "text": "Obtaining a map of gene positions on the chromosomes is an  endeavor  that has occupied thousands of geneticists for the past 100 years. All of these are ways that gene maps are used, EXCEPT:",
+      "choices": [
+        "allowing geneticists to isolate genes and discover their structure and function.",
+        "deducing evolutionary genetic mechanisms.",
+        "building genotypes for experimental purposes or for commercial applications.",
+        "understanding why nucleotides undergo mutations."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "8cf3a635-8020-5b4c-9eaa-cd7486fc15c4",
+      "slug": "week16_question_19",
+      "text": "In humans, oculocutaneous (OCA) albinism is a collection of autosomal recessive\nconditions  characterized by an absence of the pigment melanin in skin, hair,\nand eyes. That is,  pigmentation ($A$) is dominant over albino\ncharacteristics ( $a$). For this question, assume the  phenotype\nis determined by a single gene with two alleles.  If both biological parents have\nmelanin pigmentation, what are all of the possible genotypes  that may be observed\nin their offspring?\"\n",
+      "choices": [
+        "AA, Aa, or aa",
+        "Aa only",
+        "AA or Aa only",
+        "aa only"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "59b78b98-fe5d-54a3-8776-45131adf8b42",
+      "slug": "week16_question_23",
+      "text": "A young man's family is afflicted by red -green color blindness. He decides\nto draw a  pedigree of his family detailing the inheritance of this condition,\nand notices that \\u2014in his  family\\u2014only he and his grandfather demonstrate\nred- green color blindness. Furthermore,  none of his aunts or uncles have this\ncondition, and his brother can distinguish between red and  green. Red-green color\nblindness is most likely\"\n",
+      "choices": [
+        "X-linked dominant.",
+        "autosomal dominant.",
+        "autosomal recessive.",
+        "X-linked recessive.",
+        "None of these."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "2caa41da-950a-5a48-a880-94ef2de36427",
+      "slug": "chapter3_1_04",
+      "text": "Using independent assortment, what percent of offspring will be  a;b + if the parents are  a;b + and a+;b?",
+      "choices": [
+        "50$\\%$",
+        "25$\\%$",
+        "100$\\%$",
+        "0$\\%$"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "76230b6c-f396-5192-b677-1bff365dd020",
+      "slug": "chapter2_06",
+      "text": "During Mendel\\'s experiments, the alleles that were visible in heterozygotes (i.e., that resulted in an observable phenotype, such as yellow seeds) were:",
+      "choices": [
+        "recessive.",
+        "monohybrid.",
+        "heterozygous.",
+        "dominant."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "3250dbe8-5e26-5b50-a3fa-ef82999dba37",
+      "slug": "chapter3_2_05",
+      "text": "I n a certain species of sunflower, height is determined by 3 genes. In this particular species, the dominant allele contributes 3 doses of height. The recessive allele contributes 1 dose. An organism inherits 1 dominant allele and 1 recessive allele for each gene. How many doses of height does this organism receive?",
+      "choices": [
+        "12 doses",
+        "9 doses",
+        "4 doses",
+        "3 doses"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "151e3304-3ecc-5131-8d89-52c6cac2a237",
+      "slug": "week16_question_24",
+      "text": "A human disease appears to be associated with dysfunctional mitochondria, but actually  results from a mutation at a single locus in nuclear DNA. This mutation will demonstrate a",
+      "choices": [
+        "maternal pattern of inheritance, because mitochondria are passed from female parents to",
+        "paternal pattern of inheritance, because mitochondria are passed from male parents to",
+        "non-Mendelian inheritance pattern, because the number of mitochondria varies from cell to",
+        "Mendelian inheritance pattern, as the mutation is located on an autosome.",
+        "None of these"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "500e697c-e1e8-5af2-ba1e-208891058361",
+      "slug": "chapter5_04",
+      "text": "Which of these examples best represents variable expressivity?",
+      "choices": [
+        "In a population of mice all having the genotype  G / g , half of the mice have gray coats and half have white coats.",
+        "In a population of mice all having the genotype  G / g , mice demonstrate coats ranging in color from light gray to very dark gray (almost black).",
+        "In a population of mice all having the genotype  G / g , all mice demonstrate coats of only one color (gray).",
+        "In a population of mice all having the genotype  G / g , all mice completely lack any pigmentation in their coats (i.e., have white coats).",
+        "None of the answer options demonstrate variable expressivity. "
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "6ed5fb26-a173-519b-a8c3-63cd0e4eb937",
+      "slug": "chapter4_2_06",
+      "text": "Imagine you are a researcher attempting to identify the mutation responsible for an interesting phenotype in a hypothetical animal. You have obtained an F2 population from a sufficiently large cross of wildtype and mutant stocks and can access the DNA and genome sequence of your area of interest in any animal involved in your experiment. What else do you require to perform a combined linkage and physical map analysis to find the gene responsible and identify the causal mutation?",
+      "choices": [
+        "a sufficiently large backcross population",
+        "a linkage map generated using polymorphisms that alter the visible phenotype",
+        "a list of densely packed molecular marker loci and associated linkage map in the area of interest",
+        "a physical map of the region of interest"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "c6671ab8-89d0-5414-a608-3a099e64c169",
+      "slug": "week16_question_26",
+      "text": "Suppose a novel condition has been studied in several families and is known\nto be caused by  a mutation in one gene. The given table shows families where the\ncondition is present. The four  rightmost columns record the number of offspring\nin each family. Select the most likely mode of inheritance of the condition.\n",
+      "choices": [
+        "autosomal dominant",
+        "X-linked dominant",
+        "autosomal recessive",
+        "X-linked recessive"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [
+        "assets/week16_question_26_1.png"
+      ],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "b8c71b8c-69ac-553d-ba04-a99986b72714",
+      "slug": "chapter_1_4",
+      "text": "Satoshi is breeding tigers. He breeds an orange tiger with\na white tiger. All of their offspring are orange. He then\nbreeds their offspring and finds that there are\napproximately three orange tiger babies for every one\nwhite baby. Satoshi concludes that:\n",
+      "choices": [
+        "orange color is a codominant trait in tigers.",
+        "orange color is an incompletely dominant trait in tigers.",
+        "orange color is a dominant trait in tigers.",
+        "orange color is a recessive trait in tigers"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "c3507088-62db-519e-8e55-9260f848e1dc",
+      "slug": "chapter4_2_04",
+      "text": "Which of the following statements about molecular marker loci used in genetic linkage mapping is CORRECT?",
+      "choices": [
+        "They directly identify a gene of interest.",
+        "They are regions of DNA that do not vary between individuals.",
+        "They typically consist of DNA that does not affect the viability of the organism.",
+        "They often separate from a gene of interest during recombination."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "2c1d11bd-a304-5b03-8d23-908fd107524e",
+      "slug": "week16_question_25",
+      "text": "Define a pedigree analysis.",
+      "choices": [
+        "a historical review of a particular phenotype within a family",
+        "a prediction of possible diseases within a family",
+        "a genetic screening for a particular disease",
+        "analysis of an individual's predisposition for certain diseases"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    }
+  ]
+}

@@ -4,3 +4,10 @@ title: Quizzes
 
 - [Midterm](midterm_quiz.qmd): Multiple choice quiz with 30 questions.
 - [Practice exam](test_exam.qmd): Multiple choice quiz with 30 questions.
+
+Quizzes based on weekly questions
+
+- [Recap 1](recap1.qmd): 20 questions
+- [Recap 2](recap2.qmd): 20 questions
+- [Recap 3](recap3.qmd): 20 questions
+- [Recap 4](recap4.qmd): 22 questions

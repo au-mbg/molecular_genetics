@@ -1,0 +1,526 @@
+{
+  "schema_version": "1.0",
+  "metadata": {
+    "title": "Molekylær Genetik / Recap 4",
+    "description": null,
+    "source": "recap_4.yaml"
+  },
+  "questions": [
+    {
+      "qid": "2a2de491-b48a-5256-b600-de09974ffc53",
+      "slug": "week16_question_15",
+      "text": "The pattern in which rare disorders are transmitted only through \\_\\_\\_\\_\\_\\_ strongly suggests  cytoplasmic inheritance and points to a mutation in \\_\\_\\_\\_\\_\\_ as the reason for the phenotype.",
+      "choices": [
+        "males; nuclear DNA",
+        "females; nuclear DNA",
+        "females; mtDNA",
+        "males; mtDNA"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "ec2dd0d5-4fe8-503e-8b0e-2df6fc56103f",
+      "slug": "chapter2_10",
+      "text": "Cells that have two of each type of chromosome are known as:",
+      "choices": [
+        "diploid.",
+        "polyploid.",
+        "haploid.",
+        "tetraploid."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "939cb3c8-41c2-580e-9a66-7880b57b9035",
+      "slug": "chapter_1_5",
+      "text": "Selene is breeding homozygous, rounded-seed pea\nplants with homozygous, wrinkled-seed pea plants.\nShe notices that after the first generation, the\nwrinkled-seed trait disappears completely, but after\nbreeding the second generation, it reappears in one\nout of three pea plants. Selene determines that the\nwrinkled seed in pea plants is a(n) $\\_\\_\\_\\_\\_\\_$ trait.\n",
+      "choices": [
+        "codominant",
+        "incompletely dominant",
+        "recessive",
+        "dominant"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "59bd951a-aada-5376-a0bf-df10c5a5d1f7",
+      "slug": "week16_question_16",
+      "text": "Earwax type is a Mendelian human trait. Specifically, wet earwax (W) is a dominant allele,  and dry earwax (w) is a recessive allele. Given parents with Ww and ww genotypes, what is the  probability that their child will have a wet earwax phenotype?",
+      "choices": [
+        "1",
+        "3/4",
+        "2/3",
+        "1/2",
+        "1/3",
+        "1/4",
+        "0"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "2062d2af-d325-540d-8c2e-781801dac728",
+      "slug": "chapter3_1_02",
+      "text": "In a dihybrid cross between two heterozygous individuals, assuming a complete dominance inheritance pattern, how many different phenotypes will be expected among F2 progeny?",
+      "choices": [
+        "4",
+        "16",
+        "8",
+        "2"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "74588fbe-8541-5137-b93c-5715fdaeff43",
+      "slug": "chapter4_2_05",
+      "text": "Select the statement that is CORRECT.",
+      "choices": [
+        "Linkage maps do NOT provide an accurate accounting of the order of loci along a chromosome.",
+        "There is a strict linear relationship between  cM  and kb.",
+        "An F2 population can provide more information than a backcross population for fine-mapping studies.",
+        "A study population of 100 progeny or more is sufficient to detect crossovers between genes 0.1  cM  apart."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "fb3c9492-ec11-5bdd-9f0e-90455d3c66e1",
+      "slug": "week16_question_10",
+      "text": "In a pedigree two squares or circles attached at the top and laterally (to form a triangle) indicates:",
+      "choices": [
+        "dizygotic (nonidentical) twins.",
+        "monozygotic (identical) twins.",
+        "a consanguineous marriage.",
+        "mating."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "e524f850-e42f-519f-9737-a06495e24f06",
+      "slug": "week16_question_22",
+      "text": "A pedigree of a family with a rare genetic condition is shown.\nUse the pedigree to determine the mode of inheritance of the condition.\n",
+      "choices": [
+        "autosomal dominant",
+        "autosomal recessive",
+        "sex-linked dominant",
+        "sex-linked recessive"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [
+        "assets/week16_question_22_1.png"
+      ],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "e197f9e4-66b7-54ad-8a12-41fe5b945148",
+      "slug": "chapter2_09",
+      "text": "What is the primary difference between the homogametic sex and the heterogametic sex?",
+      "choices": [
+        "Homeogamtic  sexes have only autosomal chromosomes, while heterogametic sexes have autosomal and sex chromosomes.",
+        "The homogametic sex does not undergo meiosis to produce gametes, while the heterogametic sex does undergo meiosis to produce gametes.",
+        "The homogametic sex has a nonidentical pair of sex chromosomes, and the heterogametic sex has only one type of gamete.",
+        "The homogametic sex has only one type of gamete, while the heterogametic sex has a nonidentical pair of sex chromosomes."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "494cdd30-8c14-5488-b9f0-5a494340858a",
+      "slug": "chapter4_2_01",
+      "text": "Which of the following are examples of molecular markers used to generate linkage maps?",
+      "choices": [
+        "single nucleotide polymorphisms (SNPs) and epigenetically-modified DNA",
+        "microsatellites and epigenetically-modified DNA",
+        "microsatellites and chemically-modified DNA",
+        "single nucleotide polymorphisms (SNPs) and microsatellites"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "9b9beaea-1654-560f-9480-282ea8811eef",
+      "slug": "week16_question_4",
+      "text": "Consider a non-debilitating hereditary condition in humans. If two affected parents produce  an unaffected daughter, then the allele responsible for the condition must be",
+      "choices": [
+        "autosomal dominant.",
+        "autosomal recessive.",
+        "X-linked dominant.",
+        "X-linked recessive."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "dd9d6694-3fdb-5326-a98c-9d9dcca1f79e",
+      "slug": "week16_question_20",
+      "text": "In the pedigree is a family with a rare genetic condtion.    Use the pedigree to determine the mode of inheritance of the condition.",
+      "choices": [
+        "autosomal dominant",
+        "autosomal recessive",
+        "sex-linked dominant",
+        "sex-linked recessive"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [
+        "assets/week16_question_20_1.png"
+      ],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "de830166-3835-535d-a610-741b14492f7d",
+      "slug": "chapter3_2_07",
+      "text": "Which statement is FALSE regarding the cytoplasmic segregation process?",
+      "choices": [
+        "Alleles on organelle chromosomes in asexual cells cannot show cytoplasmic segregation.",
+        "Cytoplasmic segregation is not a mitotic process.",
+        "In chloroplasts, it is a common mechanism for producing variegated plants.",
+        "In  cytohets , a type of cytoplasmic segregation can be detected."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "abbb8f14-3572-5f2c-8307-9f1e5359a0d9",
+      "slug": "chapter_1_6",
+      "text": "All of these are true EXCEPT\n",
+      "choices": [
+        "older fathers produce more new point mutations than young ones.",
+        "older mothers produce more chromosomal aberrations than younger mothers.",
+        "older fathers produce fewer point mutations than older mothers.",
+        "older mothers do not pass on more new point mutations to their offspring than younger ones."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "710500db-31d1-5f12-b97a-5874a65d203a",
+      "slug": "chapter3_1_06",
+      "text": "Assuming complete dominance, what fraction of the offspring of a cross between  RrYyss  and  rrYyss  plants will be homozygous recessive at all loci?",
+      "choices": [
+        "1/4",
+        "1/2",
+        "1/8",
+        "5/8"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "d71f1ad5-4a56-518c-923d-53e52bda3aea",
+      "slug": "chapter2_07",
+      "text": "Meiosis has \\_\\_\\_\\_\\_ nuclear division(s) that results in four daughter cells with \\_\\_\\_\\_\\_ the number of chromosomes of the progenitor cell (meiocyte).",
+      "choices": [
+        "two; twice",
+        "one; equal",
+        "two; half",
+        "one; twice"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "7fa5f12a-b5af-5fc2-b95a-4f49f56e321a",
+      "slug": "week16_question_27",
+      "text": "Suppose a novel condition has been studied in several families and is known\nto be caused by  a mutation in one gene. The given table shows families where the\ncondition is present. The four  rightmost columns record the number of offspring\nin each family. \n\nSelect the description that best matches the female parent in family 6.\n",
+      "choices": [
+        "has no alleles that cause the condition",
+        "has one allele that causes the condition",
+        "has two alleles that cause the condition"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0
+      ],
+      "images": [
+        "assets/week16_question_27_1.png"
+      ],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "f2125d1c-e29e-5eb1-b97f-e9811b1338cc",
+      "slug": "chapter3_1_03",
+      "text": "For a trihybrid cross, there are \\_\\_\\_\\_\\_ different gamete types and the Punnett square has \\_\\_\\_\\_\\_ compartments.",
+      "choices": [
+        "$2^3$ ; 64",
+        "$2^2$ ; 64",
+        "$2^3$ ; 16",
+        "$2^2$ ; 16"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "59420ea3-2a70-5a13-ad62-e22b00d20513",
+      "slug": "chapter3_2_04",
+      "text": "Continuous is more or less synonymous with \\_\\_\\_\\_\\_; character or property is more or less synonymous with \\_\\_\\_\\_\\_; and gene is more or less synonymous with place on the chromosome.",
+      "choices": [
+        "quantitative; trait locus",
+        "trait locus; quantitative",
+        "polygenes; trait locus",
+        "polygenes; quantitative"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "abb0ad3b-da77-54b2-86c2-66e0024ffa78",
+      "slug": "chapter_1_1",
+      "text": "Regulatory elements are specific DNA sequences to which a \n$\\_\\_\\_\\_\\_\\_$ binds and acts as either an activator or repressor of the\nexpression of the gene\n",
+      "choices": [
+        "Chaperone protein",
+        "Activator protein",
+        "Regulatory protein",
+        "Repressor protein"
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "62c49bc8-05ad-5309-9f1e-a8ec7938f557",
+      "slug": "chapter2_01",
+      "text": "An organism with two identical alleles is called a:",
+      "choices": [
+        "heterozygote.",
+        "homozygote.",
+        "monohybrid.",
+        "zygote."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    },
+    {
+      "qid": "658bd1de-44d5-5dd2-b349-4cddb7743ef7",
+      "slug": "week16_question_3",
+      "text": "Choose one characteristic of an X-linked recessive disease.    2",
+      "choices": [
+        "All women express the disease.",
+        "Fifty percent of men express the disease.",
+        "Expression of the disease is mostly in males.",
+        "The disease skips a generation for men."
+      ],
+      "question_type": "single",
+      "point_value": 1,
+      "correct_onehot": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "images": [],
+      "image_captions": {},
+      "code_blocks": [],
+      "has_explanation": false
+    }
+  ]
+}
